@@ -1,0 +1,4 @@
+baseURL = "https://alp-ing.github.io"
+languageCode = "de-de"
+theme = "alp"
+title = "ALP"

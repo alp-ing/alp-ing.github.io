@@ -1,0 +1,79 @@
+@blue:rgb(0, 157, 238);
+@blue_dark: rgb(2, 123, 186);
+@grey:rgb(95, 97, 101);
+@grey_light:rgb(173, 173, 173);
+@grey_light2:rgba(114,114,114,0.1);
+@content: rgb(30,30,30);
+
+body{
+  font-family:'Avenir LT W01 35 Light', sans-serif;
+  color:@content;
+  *:not(i){
+    font-family: 'Avenir LT W01 35 Light', sans-serif;
+  }
+  background:#f8f8f8!important;
+  font-size:14px;
+}
+h1,h2,h3,h4{
+  font-family: 'Avenir LT W01 35 Light', sans-serif;
+  font-weight:normal;
+  color:@grey;
+  em{
+    font-style: normal;
+    color:@blue;
+  }
+}
+h1,h3{
+  color:@blue;
+}
+h2{
+  color:@blue_dark;
+}
+ul{
+  padding:0;
+  margin:0;
+  li{
+    margin:0;
+  }
+}
+blockquote,
+q {
+	border: none;
+  font-style: italic;
+	quotes: "\201C""\201D""\2018""\2019" !important;
+}
+blockquote p{
+	background:transparent;
+}
+/**/
+blockquote:before {
+	position:absolute;
+  color: rgb(133, 133, 133);
+  content: "\201C";
+  font-size: 4rem;
+  line-height: 0.1em;
+  margin-right: 0.1em;
+  top:0;
+  left:0;
+  margin-top:4.5rem;
+  width:30px;
+  z-index:99;
+}
+
+blockquote {
+	font-size: 1.6rem;
+	font-style: italic;
+  font-weight: normal;
+	line-height: 0.1;
+  margin-bottom: 2px;
+  @media (max-width: 720px){
+    font-size: 1.5rem;
+  }
+}
+a{
+  color:@blue_dark;
+  &:hover{
+    text-decoration: underline;
+    color:@blue_dark;
+  }
+}
