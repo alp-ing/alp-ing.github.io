@@ -29,8 +29,8 @@ karte_rechts = ""
 bild_mitte = ""
 content_links = []
 content_rechts = []
-einleitungstext = ""
-headline = ""
+einleitungstext = "<p>Besonders Betriebe und Unternehmen im Handwerk und der Industrie, aber auch Büros und Wohnanlagen sind zunehmend auf eine perfekte, geplante Gebäudetechnik angewiesen.</p><p class=\"p1\">Dies erfordert von der Planung umfassende Aufmerksamkeit in alle Richtungen - meist weit über das Naheliegende des ersten Blickes hinaus.</p>"
+headline = "<p><strong>PLANUNG</strong> IN PERFEKTION</p>"
 [projekte]
 bildergalerie = []
 content_links = ""
