@@ -35,7 +35,7 @@ icon = "/uploads/2021/02/01/icon_klima.png"
 icon_titel = "Klimatechnik"
 [[planung.content_links]]
 content_text = "<p>Eine Gebäudeheizung (oft 'Heizung' genannt) ist eine Vorrichtung zur zentralen Bereitstellung und Verteilung von Wärme zur Beheizung Räumen in Gebäuden. Verbreitet sind Wärmepumpen, BHKW´s, Gasheizungen, Ölheizungen und Nah- sowie Fernwärmeanlagen. Nachwachsende Rohstoffe nutzen beispielsweise auch Pellet- und andere Holzheizungen.</p>"
-icon = ""
+icon = "/uploads/2021/02/01/icon_heizung.png"
 icon_titel = "Heizung"
 [[planung.content_links]]
 content_text = "<p>Lüftung bezeichnet die Erneuerung der Raumluft durch den Austausch von Luft in Bauwerken. Der häufigste Grund für das Lüften von Räumen ist die Abführung unerwünschter Stoffe aus der Innenraumluft. Der Luftwechsel erfolgt entweder natürlich oder durch maschinelle Lüftung. Zur Auslegung des zum Anwendungsfall passenden Mindestluftwechsels müssen verschiedene Normen und Richtlinien herangezogen werden. Die Qualität der Lüftung bestimmt maßgeblich die Behaglichkeit der Raumnutzer sowie den Energieverbrauch von Heizungs- und Klimaanlagen.</p>"
