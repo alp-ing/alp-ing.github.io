@@ -2,11 +2,6 @@
 label: Footer
 hide_body: true
 fields:
-- name: uberschrift
-  type: text
-  config:
-    required: false
-  label: Überschrift
 - name: kontakt
   type: textarea
   default: ''
@@ -16,36 +11,5 @@ fields:
     schema:
       format: markdown
   label: kontakt
-- name: icons
-  type: field_group_list
-  fields:
-  - name: icon
-    type: text
-    config:
-      required: false
-    label: Icon
-  - name: icon_link
-    type: textarea
-    default: ''
-    config:
-      required: false
-      wysiwyg: true
-      schema:
-        format: html-blocks
-    label: icon link
-  config:
-    min: 
-    max: 
-    labelField: 
-  label: icons
-- name: newsletter
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: true
-    schema:
-      format: html-blocks
-  label: Newsletter
 pages:
 - content/global/footer.md
