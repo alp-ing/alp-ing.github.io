@@ -23,7 +23,7 @@ logo_layer = ""
 [kontakt]
 background_picture = ""
 content_links = ""
-headline = ""
+headline = "<p>ALP INGENIEUR <strong>KONTAKT</strong></p>"
 karte_rechts = ""
 [planung]
 bild_mitte = ""
