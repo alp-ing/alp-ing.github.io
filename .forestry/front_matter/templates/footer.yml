@@ -11,5 +11,10 @@ fields:
     schema:
       format: markdown
   label: kontakt
+- name: icon_rechts
+  type: file
+  config:
+    maxSize: 64
+  label: Icon_rechts
 pages:
 - content/global/footer.md
