@@ -12,7 +12,7 @@ team_rechts = ""
 teambild_links = ""
 [bim]
 bild = ""
-headline = ""
+headline = "<p>BUILDING <strong>INFORMATION MODELLING</strong></p>"
 logo_bim = ""
 [karriere]
 content_text = ""
