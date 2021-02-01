@@ -1,7 +1,8 @@
 +++
 date = "2018-05-25T14:23:18.000+00:00"
 hintergrundbild = "/uploads/2020/05/11/footer-bild"
-kontakt = "Armin Lausterer  \nIn der Au 34 B , 93179 Brennberg\n\n\\+49 171 - 1 64 44 22, +49 94 84 - 95 15 94\n\n[info@armin-lausterer.de](mailto:info@armin-lausterer.de)"
+icon_rechts = ""
+kontakt = "ALP Ingenieur GmbH & Co. KG | Mozartstraße 1b | 84034 Landshut | Tel. +49 (0) 94 52 / 854 98 - 00 | Fax. +49 (0) 94 52 / 854 98 - 99"
 logo = "/uploads/2020/05/11/footer-bild"
 newsletter = "<iframe class=\"kursolino_frame\" width=\"100%\" height=\"500\" src=\"https://armin-lausterer.kurs.software/iframe/?&amp;module=newsletter\" frameborder=\"0\"></iframe>"
 title = "Footer"
