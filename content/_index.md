@@ -26,12 +26,12 @@ content_links = "<p>Achim Lauerer &amp; Piere Limpert</p><p class=\"p1\"><a href
 headline = "<p>ALP INGENIEUR <strong>KONTAKT</strong></p>"
 karte_rechts = ""
 [planung]
-bild_mitte = ""
+bild_mitte = "/uploads/2021/02/01/alp_center_planung.png"
 einleitungstext = "<p>Besonders Betriebe und Unternehmen im Handwerk und der Industrie, aber auch Büros und Wohnanlagen sind zunehmend auf eine perfekte, geplante Gebäudetechnik angewiesen.</p><p class=\"p1\">Dies erfordert von der Planung umfassende Aufmerksamkeit in alle Richtungen - meist weit über das Naheliegende des ersten Blickes hinaus.</p>"
 headline = "<p><strong>PLANUNG</strong> IN PERFEKTION</p>"
 [[planung.content_links]]
 content_text = "<p>Eine Klimaanlage ist eine Anlage der Luft- und Klimatechnik zur Erzeugung und Aufrechterhaltung einer angenehmen oder benötigten Raumluft-Qualität (Temperatur, Feuchtigkeit, Reinheit sowie CO2-Anteil) unabhängig von Wetter, Abwärme und menschlichen und technischen Emissionen. Eine Klimaanlage hat die Aufgabe, die Luft eines Raums in einen bestimmten Zustand zu bringen und zu halten („konditionieren“).</p>"
-icon = ""
+icon = "/uploads/2021/02/01/icon_klima.png"
 icon_titel = "Klimatechnik"
 [[planung.content_links]]
 content_text = "<p>Eine Gebäudeheizung (oft 'Heizung' genannt) ist eine Vorrichtung zur zentralen Bereitstellung und Verteilung von Wärme zur Beheizung Räumen in Gebäuden. Verbreitet sind Wärmepumpen, BHKW´s, Gasheizungen, Ölheizungen und Nah- sowie Fernwärmeanlagen. Nachwachsende Rohstoffe nutzen beispielsweise auch Pellet- und andere Holzheizungen.</p>"
