@@ -47,7 +47,7 @@ icon = "/uploads/2021/02/01/icon_sanitaer.png"
 icon_titel = "Sanitär"
 [[planung.content_rechts]]
 content_text = "<p>Unter Brandschutz oder Feuerschutzwesen versteht man alle Maßnahmen, die der Entstehung und Ausbreitung eines Brandes (Feuer und Rauch) vorbeugen (Brandverhütung durch vorbeugenden und baulichen Brandschutz). Eine intelligente Brandschutzplanung verhindert die Brandausbreitung und aktive Löschanlagen unterstützen wirksam die Löscharbeiten der Feuerwehr bei einem Brand (abwehrender Brandschutz).</p>"
-icon = ""
+icon = "/uploads/2021/02/01/icon_brandschutz.png"
 icon_titel = "Brandschutz"
 [[planung.content_rechts]]
 content_text = "<p>Die Mess-, Steuerungs- und Regelungstechnik (MSR) ist ein Bereich der Automatisierungstechnik im Bereich der technischen Gebäudeausstattung. Im Rahmen der Gebäudetechnik ist MSR die Grundlage für eine Gebäudeautomation. Eine strukturiert geplante MSR vernetzt alle Stellschrauben der Gebäudetechnik und ermöglicht eine zentrale Steuerung. Sie ist ein wichtiger Bestandteil des technischen Facility-Managements.</p>"
