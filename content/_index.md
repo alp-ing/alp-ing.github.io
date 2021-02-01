@@ -27,7 +27,6 @@ headline = ""
 karte_rechts = ""
 [planung]
 bild_mitte = ""
-content_rechts = []
 einleitungstext = "<p>Besonders Betriebe und Unternehmen im Handwerk und der Industrie, aber auch Büros und Wohnanlagen sind zunehmend auf eine perfekte, geplante Gebäudetechnik angewiesen.</p><p class=\"p1\">Dies erfordert von der Planung umfassende Aufmerksamkeit in alle Richtungen - meist weit über das Naheliegende des ersten Blickes hinaus.</p>"
 headline = "<p><strong>PLANUNG</strong> IN PERFEKTION</p>"
 [[planung.content_links]]
@@ -42,6 +41,18 @@ icon_titel = "Heizung"
 content_text = "<p>Lüftung bezeichnet die Erneuerung der Raumluft durch den Austausch von Luft in Bauwerken. Der häufigste Grund für das Lüften von Räumen ist die Abführung unerwünschter Stoffe aus der Innenraumluft. Der Luftwechsel erfolgt entweder natürlich oder durch maschinelle Lüftung. Zur Auslegung des zum Anwendungsfall passenden Mindestluftwechsels müssen verschiedene Normen und Richtlinien herangezogen werden. Die Qualität der Lüftung bestimmt maßgeblich die Behaglichkeit der Raumnutzer sowie den Energieverbrauch von Heizungs- und Klimaanlagen.</p>"
 icon = ""
 icon_titel = "Lüftung"
+[[planung.content_rechts]]
+content_text = "<p>Die Sanitärtechnik befasst sich als Teilbereich der Versorgungstechnik (Haustechnik) mit technischen Installationen der Gas- und Wasserversorgung sowie der Abwasserentsorgung, einschließlich der daran angeschlossenen Einrichtungsgegenstände in Bädern, Dusch- und Toilettenanlagen. Maßgeblicher Anteil der sanitären Gebäudetechnik ist insbesondere die Berücksichtigung der Trinkwasserhygiene.</p>"
+icon = ""
+icon_titel = "Sanitär"
+[[planung.content_rechts]]
+content_text = ""
+icon = ""
+icon_titel = ""
+[[planung.content_rechts]]
+content_text = ""
+icon = ""
+icon_titel = ""
 [projekte]
 bildergalerie = []
 content_links = ""
