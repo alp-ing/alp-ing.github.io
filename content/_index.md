@@ -55,10 +55,10 @@ icon = ""
 icon_titel = "MSR"
 [projekte]
 bildergalerie = []
-content_links = ""
-content_mitte = ""
-content_rechts = ""
-headline = ""
-subheadline_projekte = ""
+content_links = "<p>Hotel Stachus München</p><p class=\"p1\">_</p><p class=\"p1\">Gewerbeobjekt Riesstraße</p><p class=\"p1\">_</p><p class=\"p1\">Hochhaus Balanstraße</p><p class=\"p1\">_</p><p class=\"p1\">Forum Memmingen</p>"
+content_mitte = "<p>Gewerbekomplex Sankt Martin Straße</p><p class=\"p1\">_</p><p class=\"p1\">Gewerbeobjekt Berg am Laim</p><p class=\"p1\">_</p><p class=\"p1\">Neubau Lebensmittelmarkt</p><p class=\"p1\">_</p><p class=\"p1\">Gebäudeerweiterung Parteizentrale</p>"
+content_rechts = "<p>Mehrfamilienhaus Ursulastraße</p><p class=\"p1\">_</p><p class=\"p1\">Palais am Lehnbachplatz</p><p class=\"p1\">_</p><p class=\"p1\">Mehrfamilienwohnhaus Welfenstraße</p><p class=\"p1\">_</p><p class=\"p1\">EFH Rheinlandstraße</p>"
+headline = "<p>AKTUELLE <strong>PROJEKTE</strong></p>"
+subheadline_projekte = "PROJEKTLISTE"
 
 +++
