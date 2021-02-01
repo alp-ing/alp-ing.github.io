@@ -43,7 +43,7 @@ icon = "/uploads/2021/02/01/icon_lueftung.png"
 icon_titel = "Lüftung"
 [[planung.content_rechts]]
 content_text = "<p>Die Sanitärtechnik befasst sich als Teilbereich der Versorgungstechnik (Haustechnik) mit technischen Installationen der Gas- und Wasserversorgung sowie der Abwasserentsorgung, einschließlich der daran angeschlossenen Einrichtungsgegenstände in Bädern, Dusch- und Toilettenanlagen. Maßgeblicher Anteil der sanitären Gebäudetechnik ist insbesondere die Berücksichtigung der Trinkwasserhygiene.</p>"
-icon = ""
+icon = "/uploads/2021/02/01/icon_sanitaer.png"
 icon_titel = "Sanitär"
 [[planung.content_rechts]]
 content_text = "<p>Unter Brandschutz oder Feuerschutzwesen versteht man alle Maßnahmen, die der Entstehung und Ausbreitung eines Brandes (Feuer und Rauch) vorbeugen (Brandverhütung durch vorbeugenden und baulichen Brandschutz). Eine intelligente Brandschutzplanung verhindert die Brandausbreitung und aktive Löschanlagen unterstützen wirksam die Löscharbeiten der Feuerwehr bei einem Brand (abwehrender Brandschutz).</p>"
