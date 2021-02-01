@@ -44,6 +44,47 @@ fields:
       schema:
         format: html-blocks
     label: Headline
+  - name: einleitungstext
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Einleitungstext
+  - name: teambild_links
+    type: file
+    config:
+      maxSize: 64
+    label: Teambild_links
+  - name: team_name_links
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Team_name_links
+  - name: team_rechts
+    type: file
+    config:
+      maxSize: 64
+    label: Team_rechts
+  - name: team_name_rechts
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Team_name_rechts
+  - name: bildergalerie
+    type: image_gallery
+    config: {}
+    label: bildergalerie
   label: ALP
 - name: planung
   type: field_group
@@ -58,6 +99,74 @@ fields:
       schema:
         format: html-blocks
     label: Headline
+  - name: einleitungstext
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Einleitungstext
+  - name: content_links
+    type: field_group_list
+    fields:
+    - name: icon
+      type: file
+      config:
+        maxSize: 64
+      label: Icon
+    - name: icon_titel
+      type: text
+      config:
+        required: false
+      label: Icon_titel
+    - name: content_text
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: true
+        schema:
+          format: html-blocks
+      label: content_text
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Content_links
+  - name: bild_mitte
+    type: file
+    config:
+      maxSize: 64
+    label: Bild_mitte
+  - name: content_rechts
+    type: field_group_list
+    fields:
+    - name: icon
+      type: file
+      config:
+        maxSize: 64
+      label: Icon
+    - name: icon_titel
+      type: text
+      config:
+        required: false
+      label: Icon_titel
+    - name: content_text
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: true
+        schema:
+          format: html-blocks
+      label: content_text
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Content_rechts
   label: Planung
 - name: bim
   type: field_group
@@ -72,6 +181,16 @@ fields:
       schema:
         format: html-blocks
     label: Headline
+  - name: logo_bim
+    type: file
+    config:
+      maxSize: 64
+    label: Logo_bim
+  - name: bild
+    type: file
+    config:
+      maxSize: 64
+    label: Bild
   label: BIM
 - name: projekte
   type: field_group
@@ -86,6 +205,42 @@ fields:
       schema:
         format: html-blocks
     label: Headline
+  - name: bildergalerie
+    type: image_gallery
+    config: {}
+    label: bildergalerie
+  - name: subheadline_projekte
+    type: text
+    config:
+      required: false
+    label: subheadline_projekte
+  - name: content_links
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Content_links
+  - name: content_mitte
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Content_mitte
+  - name: content_rechts
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Content_rechts
   label: Projekte
 - name: karriere
   type: field_group
@@ -100,6 +255,15 @@ fields:
       schema:
         format: html-blocks
     label: Headline
+  - name: content_text
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Content_text
   label: Karriere
 - name: kontakt
   type: field_group
@@ -114,6 +278,20 @@ fields:
       schema:
         format: html-blocks
     label: Headline
+  - name: content_links
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Content_links
+  - name: karte_rechts
+    type: file
+    config:
+      maxSize: 64
+    label: Karte_rechts
   label: Kontakt
 pages:
 - content/_index.md
