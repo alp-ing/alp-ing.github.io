@@ -37,7 +37,7 @@ icon_titel = "Heizung"
 [[planung.content_links]]
 content_text = "<p>Eine Klimaanlage ist eine Anlage der Luft- und Klimatechnik zur Erzeugung und Aufrechterhaltung einer angenehmen oder benötigten Raumluft-Qualität (Temperatur, Feuchtigkeit, Reinheit sowie CO2-Anteil) unabhängig von Wetter, Abwärme und menschlichen und technischen Emissionen. Eine Klimaanlage hat die Aufgabe, die Luft eines Raums in einen bestimmten Zustand zu bringen und zu halten („konditionieren“).</p>"
 icon = ""
-icon_titel = "KLIMATECHNIK"
+icon_titel = "Klimatechnik"
 [projekte]
 bildergalerie = []
 content_links = ""
