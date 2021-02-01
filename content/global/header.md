@@ -1,6 +1,6 @@
 ---
 title: Header
-logo: "/uploads/2020/05/04/Logo_Lausterer_final_quer.png"
+logo: "/uploads/2021/02/01/alp_logo_final_tagline.png"
 livecall:
   livecall:
   - bild: "/uploads/2020/09/22/live-call_al.png"
