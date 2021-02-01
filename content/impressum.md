@@ -17,6 +17,7 @@ Telefax 094 52 / 854 98 99
 [http://www.alp-ing.de](http://www.alp-ing.de "http://www.alp-ing.de")
 
 Sitz Landshut - HRA Landshut 11965  
+Umsatzsteuer-Identifikationsnummer: DE326074162  
 Geschäftsführende Gesellschafter:  
 Achim Lauerer, Pierre Limpert
 
