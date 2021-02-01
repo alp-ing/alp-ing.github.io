@@ -51,7 +51,7 @@ icon = "/uploads/2021/02/01/icon_brandschutz.png"
 icon_titel = "Brandschutz"
 [[planung.content_rechts]]
 content_text = "<p>Die Mess-, Steuerungs- und Regelungstechnik (MSR) ist ein Bereich der Automatisierungstechnik im Bereich der technischen Gebäudeausstattung. Im Rahmen der Gebäudetechnik ist MSR die Grundlage für eine Gebäudeautomation. Eine strukturiert geplante MSR vernetzt alle Stellschrauben der Gebäudetechnik und ermöglicht eine zentrale Steuerung. Sie ist ein wichtiger Bestandteil des technischen Facility-Managements.</p>"
-icon = ""
+icon = "/uploads/2021/02/01/icon_msr.png"
 icon_titel = "MSR"
 [projekte]
 bildergalerie = []
