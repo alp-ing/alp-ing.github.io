@@ -22,7 +22,7 @@ film = ""
 logo_layer = ""
 [kontakt]
 background_picture = ""
-content_links = ""
+content_links = "<p>Achim Lauerer &amp; Piere Limpert</p><p class=\"p1\"><a href=\"mailto:info@alp-ing.de\" title=\"\" target=\"_blank\">info@alp-ing.de</a></p><p class=\"p1\">Tel. +49 (0) 94 52 / 854 98 - 00</p>"
 headline = "<p>ALP INGENIEUR <strong>KONTAKT</strong></p>"
 karte_rechts = ""
 [planung]
