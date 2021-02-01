@@ -46,7 +46,7 @@ content_text = "<p>Die Sanitärtechnik befasst sich als Teilbereich der Versorgu
 icon = ""
 icon_titel = "Sanitär"
 [[planung.content_rechts]]
-content_text = "<p>Unter Brandschutz oder Feuerschutzwesen versteht man alle Maßnahmen, die der Entstehung und Ausbreitung eines Brandes (Feuer und Rauch) vorbeugen (Brandverhütung durch vorbeugenden und baulichen Brandschutz). Eine intelligente Brandschutzplanung verhindert die Brandausbreitung und leisten eine wirksame Unterstützung von Löscharbeiten bei einem Brand (abwehrender Brandschutz).</p>"
+content_text = "<p>Unter Brandschutz oder Feuerschutzwesen versteht man alle Maßnahmen, die der Entstehung und Ausbreitung eines Brandes (Feuer und Rauch) vorbeugen (Brandverhütung durch vorbeugenden und baulichen Brandschutz). Eine intelligente Brandschutzplanung verhindert die Brandausbreitung und aktive Löschanlagen unterstützen wirksam die Löscharbeiten der Feuerwehr bei einem Brand (abwehrender Brandschutz).</p>"
 icon = ""
 icon_titel = "Brandschutz"
 [[planung.content_rechts]]
