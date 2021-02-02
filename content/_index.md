@@ -11,7 +11,7 @@ team_name_rechts = "<p>PIERRE LIMPERT</p><p class=\"p2\">Geschäftsführender G
 team_rechts = "/uploads/2021/02/01/alp_pierre_limpert.png"
 teambild_links = "/uploads/2021/02/01/alp-achim-lauerer.png"
 [bim]
-bild = ""
+bild = "/uploads/2021/02/02/bim_visualisierung_sw.png"
 headline = "<p>BUILDING <strong>INFORMATION MODELLING</strong></p>"
 logo_bim = ""
 [karriere]
