@@ -13,7 +13,7 @@ teambild_links = "/uploads/2021/02/01/alp-achim-lauerer.png"
 [bim]
 bild = "/uploads/2021/02/02/bim_visualisierung_sw.png"
 headline = "<p>BUILDING <strong>INFORMATION MODELLING</strong></p>"
-logo_bim = ""
+logo_bim = "/uploads/2021/02/04/bim_ready_logo.png"
 [karriere]
 content_text = ""
 headline = ""
