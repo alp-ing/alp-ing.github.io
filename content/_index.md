@@ -54,7 +54,7 @@ content_text = "<p>Die Mess-, Steuerungs- und Regelungstechnik (MSR) ist ein Ber
 icon = "/uploads/2021/02/01/icon_msr.png"
 icon_titel = "MSR"
 [projekte]
-bildergalerie = []
+bildergalerie = ["/uploads/2021/02/05/9.jpg", "/uploads/2021/02/05/8.jpg", "/uploads/2021/02/05/7.jpg", "/uploads/2021/02/05/6.jpg", "/uploads/2021/02/05/5.jpg", "/uploads/2021/02/05/4.jpg", "/uploads/2021/02/05/3.jpg", "/uploads/2021/02/05/2.jpg", "/uploads/2021/02/05/1.jpg"]
 content_links = "<p>Hotel Stachus München</p><p class=\"p1\">_</p><p class=\"p1\">Gewerbeobjekt Riesstraße</p><p class=\"p1\">_</p><p class=\"p1\">Hochhaus Balanstraße</p><p class=\"p1\">_</p><p class=\"p1\">Forum Memmingen</p>"
 content_mitte = "<p>Gewerbekomplex Sankt Martin Straße</p><p class=\"p1\">_</p><p class=\"p1\">Gewerbeobjekt Berg am Laim</p><p class=\"p1\">_</p><p class=\"p1\">Neubau Lebensmittelmarkt</p><p class=\"p1\">_</p><p class=\"p1\">Gebäudeerweiterung Parteizentrale</p>"
 content_rechts = "<p>Mehrfamilienhaus Ursulastraße</p><p class=\"p1\">_</p><p class=\"p1\">Palais am Lehnbachplatz</p><p class=\"p1\">_</p><p class=\"p1\">Mehrfamilienwohnhaus Welfenstraße</p><p class=\"p1\">_</p><p class=\"p1\">EFH Rheinlandstraße</p>"
