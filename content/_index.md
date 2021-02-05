@@ -24,7 +24,7 @@ logo_layer = "/uploads/2021/02/01/alp_logo_layer_transparent.png"
 background_picture = "/uploads/2021/02/01/kontakt_background_pic.jpg"
 content_links = "<p>Achim Lauerer &amp; Piere Limpert</p><p class=\"p1\"><a href=\"mailto:info@alp-ing.de\" title=\"\" target=\"_blank\">info@alp-ing.de</a></p><p class=\"p1\">Tel. +49 (0) 94 52 / 854 98 - 00</p>"
 headline = "<p>ALP INGENIEUR <strong>KONTAKT</strong></p>"
-karte_rechts = ""
+karte_rechts = "/uploads/2021/02/05/alp_kontakt_karte.jpg"
 [planung]
 bild_mitte = "/uploads/2021/02/01/alp_center_planung.png"
 einleitungstext = "<p>Besonders Betriebe und Unternehmen im Handwerk und der Industrie, aber auch Büros und Wohnanlagen sind zunehmend auf eine perfekte, geplante Gebäudetechnik angewiesen.</p><p class=\"p1\">Dies erfordert von der Planung umfassende Aufmerksamkeit in alle Richtungen - meist weit über das Naheliegende des ersten Blickes hinaus.</p>"
