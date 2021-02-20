@@ -23,11 +23,17 @@ h4 em {
   color: #009dee;
 }
 h1,
-h3 {
-  color: #009dee;
+h2,
+h3,
+h4 {
+  text-align: center;
+  color: #5f6165;
 }
-h2 {
-  color: #027bba;
+h1 strong,
+h2 strong,
+h3 strong,
+h4 strong {
+  color: #009dee;
 }
 ul {
   padding: 0;
@@ -77,4 +83,98 @@ a {
 a:hover {
   text-decoration: underline;
   color: #027bba;
+}
+header {
+  background: rgba(255, 255, 255, 0.7);
+  position: fixed;
+  padding: 2rem 0;
+  z-index: 99;
+  width: 100vw;
+}
+header .hc {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+header #menu {
+  display: flex;
+  justify-content: flex-end;
+}
+header #menu > div {
+  line-height: 1em;
+  padding: 0 0.5rem;
+  border-left: 1px solid #5f6165;
+  color: #5f6165;
+}
+header #menu > div:first-child {
+  border: none;
+}
+header #menu > div a {
+  color: #5f6165;
+  text-decoration: none;
+}
+header #menu > div a:hover {
+  color: #009dee;
+  font-weight: bold;
+}
+#header.scrolled {
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 1rem 0;
+}
+#header.unscrolled {
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+  background: rgba(255, 255, 255, 0.7);
+  padding: 2rem 0;
+}
+.imggal .gimg {
+  cursor: pointer;
+  padding-top: 100%;
+}
+.imggal .gimg.h {
+  padding-top: calc(200% + 10rem);
+}
+.imggal .gimg.w {
+  padding-top: calc(66.6% - 1rem);
+}
+#home #keyv {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+#home #keyvlogo {
+  height: 25vh;
+  margin-bottom: 10vh;
+}
+#home section {
+  padding: 2rem 0;
+  border-bottom: 1px dashed #009dee;
+}
+#home #alp .centeredImgBlocks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#home #alp .centeredImgBlocks > div {
+  text-align: center;
+  padding: 1rem;
+}
+#home #alp .centeredImgBlocks img {
+  max-width: 100%;
+}
+#home #alp .centeredImgBlocks h3 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+#home #alp .centeredImgBlocks h3 em {
+  font-size: 1rem;
+}
+#home #alp .centeredImgBlocks h3 p {
+  margin: 0;
 }

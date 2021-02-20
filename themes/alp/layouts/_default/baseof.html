@@ -30,6 +30,8 @@
 <script src="https://unpkg.com/cloudinary-video-player@1.4.0/dist/cld-video-player.min.js" 
     type="text/javascript"></script>
   <link type="text/css" rel="stylesheet" href="//fast.fonts.net/cssapi/c1aafbe4-b266-4d9e-8398-9c7e3f5bcfa5.css"/>
+  <script type="text/javascript" src="/lib/slippry.min.js"></script>
+  <link rel="stylesheet" href="/lib/slippry.min.css">
 </head>
 
 <body>
@@ -85,6 +87,51 @@
         }else{
           $(this).addClass('closed');
         }
+      });
+      const scrElems = ["#header"];
+      let scr = false;
+      $(window).scroll(function () {
+        const supportPageOffset = window.pageXOffset !== undefined;
+        const isCSS1Compat = ((document.compatMode || '') === 'CSS1Compat');
+        const y = supportPageOffset ? window.pageYOffset : isCSS1Compat ? document.documentElement.scrollTop : document.body.scrollTop;
+        if ((y > 0) !== scr) {
+          scr = y > 0;
+          if (scr) {
+            scrElems.forEach(function (v) {
+              $(v).addClass('scrolled').removeClass('unscrolled');
+            });
+          } else {
+            scrElems.forEach(function (v) {
+              $(v).removeClass('scrolled').addClass('unscrolled');
+            })
+          }
+        }
+      });
+      $('.imggal .gimg').click(function (el) {
+        var mid = el.currentTarget.dataset.modal;
+        var idx = el.currentTarget.dataset.idx;
+        $('#modal_' + mid).modal({ inverted: true }).modal('show');
+        $('#gal_' + mid).slippry({
+          // general elements & wrapper
+          slippryWrapper: '<div class="sy-box portfolio-slider" />', // wrapper to wrap everything, including pager
+
+          // options
+          adaptiveHeight: true, // height of the sliders adapts to current slide
+          start: idx + 1, // num (starting from 1), random
+          loop: true, // first -> last & last -> first arrows
+          captionsSrc: 'li',
+          captions: 'custom', // Position: overlay, below, custom, false
+          captionsEl: '.external-captions',
+
+          // transitions
+          transition: 'horizontal', // fade, horizontal, kenburns, false
+          easing: 'linear', // easing to use in the animation [(see... [jquery www])]
+          continuous: true,
+
+          // slideshow
+          auto: true,
+          pager: false,
+        });
       });
     });
   </script>

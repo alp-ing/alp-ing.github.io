@@ -1,8 +1,68 @@
-{{ define "main" }} {{$p:=.}}
+{{ define "main" }} {{$p:=.Params}}
 <div id="home">
-  <div class="titlewrap">
+  <div id="keyv" style="background:url({{partial "imgUrl" (dict "img" "/uploads/2021/02/01/alp_office2.jpg" "params" "q_100" )}}) center center no-repeat; background-size:cover">
+    <img id="keyvlogo" src="{{partial "imgUrl" (dict "img" $p.keyvisual.logo_layer "params" "q_100" )}}"/>
+  </div>
+  <section id="alp">
     <div class="ui container">
-      <h1>{{.Params.title}}</h1>
+      <h1>{{$p.alp.headline | safeHTML}}</h1>
+      <div class="centeredImgBlocks">
+        <div>
+          <img src="{{partial "imgUrl" (dict "img" $p.alp.teambild_links "params" "q_100,h_200" )}}"/>
+          <h3>{{$p.alp.team_name_links | safeHTML}}</h3>
+        </div>
+        <div>
+          <img src="{{partial "imgUrl" (dict "img" $p.alp.team_rechts "params" "q_100,h_200" )}}"/>
+          <h3>{{$p.alp.team_name_rechts | safeHTML}}</h3>
+        </div>
+      </div>
+      <div class="intro">
+        {{$p.alp.einleitungstext | safeHTML}}
+      </div>
+      <div class="ui grid imggal stackable">
+        <div class="eight wide column">
+          {{ range $x,$img := $p.alp.bildergalerie }} {{if eq $x 0}}
+          <div data-modal="imgg" class="gimg" data-idx="{{$x}}" style="background:url({{partial "imgUrl" (dict "img" $img "params" "c_fill,h_1200,w_1200,g_auto,f_auto" )}}) center center no-repeat;background-size:cover"></div> {{end}}{{end}}
+        </div>
+        <div class="eight wide column imggalcol">
+          <div class="ui two column stackable grid">
+          {{ range $x,$img := $p.alp.bildergalerie }} 
+            {{if gt $x 0}}
+              {{if lt $x 5}}
+                <div class="column">
+                  <div data-modal="imgg" data-idx="{{$x}}" class="gimg" style="background:url({{partial "imgUrl" (dict "img" $img "params" "c_fill,h_1200,w_1200,g_auto,f_auto" )}}) center center no-repeat;background-size:cover"></div> 
+                </div>
+              {{end}}
+            {{end}}
+          {{end}}
+          </div>
+        </div>
+      </div>
+      <div class="ui four column stackable grid imggal">
+        {{ range $x,$img := $p.alp.bildergalerie }} 
+          {{if gt $x 4}}
+              <div class="column">
+                <div data-modal="imgg" data-idx="{{$x}}" class="gimg" style="background:url({{partial "imgUrl" (dict "img" $img "params" "c_fill,h_1200,w_1200,g_auto,f_auto" )}}) center center no-repeat;background-size:cover"></div> 
+              </div>
+          {{end}}
+        {{end}}
+      </div>
+    </div>
+  </section>
+  <section id="planung">Planung</section>
+  <section id="bim">BIM</section>
+  <section id="projekte">Projekte</section>
+  <section id="karriere">Karriere</section>
+  <section id="kontakt">Kontakt</section>
+  <div class="ui modal small" id="modal_imgg">
+    <div class="content">
+      <ul id="gal_imgg" class="imggalslider ">
+        {{ range $x,$img := $p.alp.bildergalerie }}
+        <li>
+          <img style="z-index:2;" src="{{partial "imgUrl" (dict "img" $img "params" "c_scale,h_1000,f_auto" )}} " />
+        </li>
+        {{end}}
+      </ul>
     </div>
   </div>
 </div>
