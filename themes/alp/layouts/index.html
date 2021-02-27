@@ -3,7 +3,8 @@
   <div id="keyv" style="background:url({{partial "imgUrl" (dict "img" "/uploads/2021/02/01/alp_office2.jpg" "params" "q_100" )}}) center center no-repeat; background-size:cover">
     <img id="keyvlogo" src="{{partial "imgUrl" (dict "img" $p.keyvisual.logo_layer "params" "q_100" )}}"/>
   </div>
-  <section id="alp">
+  <section id="alpsec">
+    <div id="alp" class="navpoint"></div>
     <div class="ui container">
       <h1>{{$p.alp.headline | safeHTML}}</h1>
       <div class="centeredImgBlocks">
@@ -49,15 +50,123 @@
       </div>
     </div>
   </section>
-  <section id="planung">Planung</section>
-  <section id="bim">BIM</section>
-  <section id="projekte">Projekte</section>
-  <section id="karriere">Karriere</section>
-  <section id="kontakt">Kontakt</section>
+  <section id="planungsec">
+    <div id="planung" class="navpoint"></div>
+    <div class="ui container">
+      <h2>{{$p.planung.headline | safeHTML}}</h2>
+      <div class="centered">
+        {{$p.planung.einleitungstext | safeHTML}}
+      </div>
+      <div class="pg">
+        <div class="left">
+          {{ range $p.planung.content_links }} 
+            <div class="elem">
+              <div>
+                <h3>{{.icon_titel | safeHTML}}</h3>
+                {{.content_text | safeHTML}}
+              </div>
+              <div class="imgcont">
+                <div class="line"></div>
+                <img src="{{partial "imgUrl" (dict "img" .icon "params" "q_100,h_70" )}}"/>
+              </div>
+            </div>
+          {{end}}
+        </div>
+        <div id="centimg">
+          <img src="{{partial "imgUrl" (dict "img" $p.planung.bild_mitte "params" "q_100,w_400" )}}"/>
+        </div>
+        <div class="right">
+          {{ range $p.planung.content_rechts }} 
+          <div class="elem">
+            <div class="imgcont">
+              <div class="line"></div>
+              <img src="{{partial "imgUrl" (dict "img" .icon "params" "q_100,h_80" )}}"/>
+            </div>
+            <div>
+              <h3>{{.icon_titel | safeHTML}}</h3>
+              {{.content_text | safeHTML}}
+            </div>
+            
+          </div>
+        {{end}}
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="bimsec" >
+    <div id="bim" class="navpoint"></div>
+    <div class="ui container">
+      <h2>{{$p.bim.headline | safeHTML}}</h2>
+      <img src="{{partial "imgUrl" (dict "img" $p.bim.bild "params" "q_100,w_800" )}}"/>
+    </div>
+  </section>
+  <section id="projektesec" >
+    <div id="projekte" class="navpoint"></div>
+    <div class="ui container">
+      <h2>{{$p.projekte.headline | safeHTML}}</h2>
+      <div class="ui grid imggal stackable">
+        <div class="eight wide column">
+          {{ range $x,$img := $p.projekte.bildergalerie }} {{if eq $x 0}}
+          <div data-modal="imgp" class="gimg" data-idx="{{$x}}" style="background:url({{partial "imgUrl" (dict "img" $img "params" "c_fill,h_1200,w_1200,g_auto,f_auto" )}}) center center no-repeat;background-size:cover"></div> {{end}}{{end}}
+        </div>
+        <div class="eight wide column imggalcol">
+          <div class="ui two column stackable grid">
+          {{ range $x,$img := $p.projekte.bildergalerie }} 
+            {{if gt $x 0}}
+              {{if lt $x 5}}
+                <div class="column">
+                  <div data-modal="imgp" data-idx="{{$x}}" class="gimg" style="background:url({{partial "imgUrl" (dict "img" $img "params" "c_fill,h_1200,w_1200,g_auto,f_auto" )}}) center center no-repeat;background-size:cover"></div> 
+                </div>
+              {{end}}
+            {{end}}
+          {{end}}
+          </div>
+        </div>
+      </div>
+      <div class="ui four column stackable grid imggal">
+        {{ range $x,$img := $p.projekte.bildergalerie }} 
+          {{if gt $x 4}}
+              <div class="column">
+                <div data-modal="imgp" data-idx="{{$x}}" class="gimg" style="background:url({{partial "imgUrl" (dict "img" $img "params" "c_fill,h_1200,w_1200,g_auto,f_auto" )}}) center center no-repeat;background-size:cover"></div> 
+              </div>
+          {{end}}
+        {{end}}
+      </div>
+      <h3>{{$p.projekte.subheadline_projekte | safeHTML}}</h3>
+      <div id="plist" class="ui three column stackable grid">
+        <div class="column">
+          {{$p.projekte.content_links | safeHTML}}
+        </div>
+        <div class="column">
+          {{$p.projekte.content_mitte | safeHTML}}
+        </div>
+        <div class="column">
+          {{$p.projekte.content_rechts | safeHTML}}
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="karrieresec">
+    <div id="karriere" class="navpoint"></div>
+    Karriere</section>
+  <section id="kontaktsec">
+    <div id="kontakt" class="navpoint"></div>
+    Kontakt</section>
   <div class="ui modal small" id="modal_imgg">
     <div class="content">
       <ul id="gal_imgg" class="imggalslider ">
         {{ range $x,$img := $p.alp.bildergalerie }}
+        <li>
+          <img style="z-index:2;" src="{{partial "imgUrl" (dict "img" $img "params" "c_scale,h_1000,f_auto" )}} " />
+        </li>
+        {{end}}
+      </ul>
+    </div>
+  </div>
+  <div class="ui modal small" id="modal_imgp">
+    <div class="content">
+      <ul id="gal_imgp" class="imggalslider ">
+        {{ range $x,$img := $p.projekte.bildergalerie }}
         <li>
           <img style="z-index:2;" src="{{partial "imgUrl" (dict "img" $img "params" "c_scale,h_1000,f_auto" )}} " />
         </li>

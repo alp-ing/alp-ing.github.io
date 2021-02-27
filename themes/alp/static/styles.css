@@ -78,11 +78,17 @@ blockquote {
   }
 }
 a {
-  color: #027bba;
+  color: #009dee;
 }
 a:hover {
   text-decoration: underline;
-  color: #027bba;
+  color: #009dee;
+}
+.centered {
+  text-align: center;
+}
+.centered > * {
+  text-align: center;
 }
 header {
   background: rgba(255, 255, 255, 0.7);
@@ -155,26 +161,114 @@ header #menu > div a:hover {
 #home section {
   padding: 2rem 0;
   border-bottom: 1px dashed #009dee;
+  position: relative;
 }
-#home #alp .centeredImgBlocks {
+#home section .navpoint {
+  position: absolute;
+  top: -6.8rem;
+}
+#home #alpsec .centeredImgBlocks {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-#home #alp .centeredImgBlocks > div {
+#home #alpsec .centeredImgBlocks > div {
   text-align: center;
   padding: 1rem;
 }
-#home #alp .centeredImgBlocks img {
+#home #alpsec .centeredImgBlocks img {
   max-width: 100%;
 }
-#home #alp .centeredImgBlocks h3 {
+#home #alpsec .centeredImgBlocks h3 {
   font-size: 1.2rem;
   margin: 0;
 }
-#home #alp .centeredImgBlocks h3 em {
+#home #alpsec .centeredImgBlocks h3 em {
   font-size: 1rem;
 }
-#home #alp .centeredImgBlocks h3 p {
+#home #alpsec .centeredImgBlocks h3 p {
   margin: 0;
+}
+#home #projektesec h3 {
+  font-weight: bold;
+}
+#home #projektesec #plist .column {
+  text-align: center;
+}
+#home #bimsec .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+#home #bimsec .container img {
+  max-width: 100%;
+  margin: 4rem 0;
+}
+#home #planungsec .pg {
+  display: flex;
+  align-items: center;
+}
+#home #planungsec .pg > * {
+  flex: 1 1 33%;
+}
+#home #planungsec .pg #centimg {
+  width: 20vw;
+  flex: 0 1 20vw;
+}
+#home #planungsec .pg #centimg img {
+  width: 100%;
+}
+#home #planungsec .pg .line {
+  width: 100%;
+  border-bottom: 1px dashed #009dee;
+  position: absolute;
+  top: 50%;
+  z-index: -1;
+}
+#home #planungsec .pg .left .line {
+  left: 2rem;
+}
+#home #planungsec .pg .left .elem {
+  margin: 2rem 0;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: right;
+}
+#home #planungsec .pg .left .elem h3 {
+  text-align: right;
+  margin: 0 0 0.5rem 0;
+}
+#home #planungsec .pg .left .imgcont {
+  padding-right: 2vw;
+  position: relative;
+}
+#home #planungsec .pg .left .imgcont img {
+  z-index: 2;
+  margin-left: 2rem;
+}
+#home #planungsec .pg .right .line {
+  right: 2rem;
+}
+#home #planungsec .pg .right .elem {
+  margin: 2rem 0;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+}
+#home #planungsec .pg .right .elem h3 {
+  text-align: left;
+  margin: 0 0 0.5rem 0;
+}
+#home #planungsec .pg .right .imgcont {
+  padding-left: 2vw;
+  position: relative;
+}
+#home #planungsec .pg .right .imgcont img {
+  z-index: 2;
+  margin-right: 2rem;
 }

@@ -1,9 +1,7 @@
 @blue:rgb(0, 157, 238);
-@blue_dark: rgb(2, 123, 186);
 @grey:rgb(95, 97, 101);
-@grey_light:rgb(173, 173, 173);
-@grey_light2:rgba(114,114,114,0.1);
 @content: rgb(30,30,30);
+
 
 body{
   font-family:'Avenir LT W01 35 Light', sans-serif;
@@ -72,10 +70,16 @@ blockquote {
   }
 }
 a{
-  color:@blue_dark;
+  color:@blue;
   &:hover{
     text-decoration: underline;
-    color:@blue_dark;
+    color:@blue;
+  }
+}
+.centered{
+  text-align:center;
+  > *{
+    text-align:center;
   }
 }
 header{
@@ -154,8 +158,13 @@ header{
   section{
     padding:2rem 0;
     border-bottom:1px dashed @blue;
+    position:relative;
+    .navpoint{
+      position:absolute;
+      top:-6.8rem;
+    }
   }
-  #alp{
+  #alpsec{
     .centeredImgBlocks{
       display:flex;
       justify-content: center;
@@ -175,6 +184,101 @@ header{
         }
         p{
           margin:0;
+        }
+      }
+    }
+  }
+  #projektesec{
+    h3{
+      font-weight:bold;
+    }
+    #plist{
+      .column{
+        text-align:center;
+      }
+    }
+  }
+  #bimsec{
+    .container{
+      display:flex;
+      flex-direction:column;
+      justify-content:flex-start;
+      align-items:center;
+      img{
+        max-width:100%;
+        margin:4rem 0;
+      }
+    }
+  }
+  #planungsec{
+    .pg{
+      display:flex;
+      align-items:center;
+      >*{
+        flex: 1 1 33%;
+      }
+      #centimg{
+       width:20vw;
+       flex: 0 1 20vw;
+       img{
+         width:100%;
+       }
+      }
+      .line{
+        width:100%;
+        border-bottom:1px dashed @blue;
+        position:absolute;
+        top:50%;
+        z-index:-1;
+      }
+      .left{
+        .line{
+          left:2rem;
+        }
+        .elem{
+          margin:2rem 0;
+          position:relative;
+          display:flex;
+          justify-content:space-between;
+          align-items:center;
+          text-align:right;
+          h3 {
+            text-align:right;
+            margin:0 0 0.5rem 0;
+          }
+        }
+        .imgcont{
+          padding-right:2vw;
+          position:relative;
+          img{
+            z-index:2;
+            margin-left:2rem;
+          }
+        }
+      }
+      .right{
+        .line{
+          right:2rem;
+        }
+        .elem{
+          margin:2rem 0;
+          position:relative;
+          display:flex;
+          justify-content:space-between;
+          align-items:center;
+          text-align:left;
+          h3 {
+            text-align:left;
+            margin:0 0 0.5rem 0;
+          }
+        }
+        .imgcont{
+          padding-left:2vw;
+          position:relative;
+          img{
+            z-index:2;
+            margin-right:2rem;
+          }
         }
       }
     }
