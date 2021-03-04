@@ -148,7 +148,13 @@
   </section>
   <section id="karrieresec">
     <div id="karriere" class="navpoint"></div>
-    Karriere</section>
+    <div class="ui container">
+      <h3>{{$p.karriere.headline | safeHTML}}</h3>
+      <div class="content_text">
+        {{$p.karriere.content_text | safeHTML}}
+      </div>      
+    </div>
+  </section>
   <section id="kontaktsec">
     <div id="kontakt" class="navpoint"></div>
     Kontakt</section>

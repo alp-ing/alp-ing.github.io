@@ -272,3 +272,26 @@ header #menu > div a:hover {
   z-index: 2;
   margin-right: 2rem;
 }
+#home #karrieresec h3 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+#home #karrieresec h3 em {
+  font-size: 1rem;
+}
+#home #karrieresec h3 p {
+  margin: 0;
+}
+#home #karrieresec content_text {
+  font-size: 1.2rem;
+  margin: 0;
+}
+#home #karrieresec content_text em {
+  font-size: 1rem;
+}
+#home #karrieresec content_text p {
+  margin: 0;
+}
+#home #karrieresec .column {
+  text-align: center;
+}
