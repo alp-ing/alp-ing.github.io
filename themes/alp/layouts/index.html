@@ -97,6 +97,7 @@
     <div id="bim" class="navpoint"></div>
     <div class="ui container">
       <h2>{{$p.bim.headline | safeHTML}}</h2>
+      <img src="{{partial "imgUrl" (dict "img" "/uploads/2021/02/04/bim_ready_logo.png" "params" "q_80,w_300" )}}"/>
       <img src="{{partial "imgUrl" (dict "img" $p.bim.bild "params" "q_100,w_800" )}}"/>
     </div>
   </section>
@@ -149,7 +150,7 @@
   <section id="karrieresec">
     <div id="karriere" class="navpoint"></div>
     <div class="ui container">
-      <h3>{{$p.karriere.headline | safeHTML}}</h3>
+      <h2>{{$p.karriere.headline | safeHTML}}</h2>
       <div class="content_text">
         {{$p.karriere.content_text | safeHTML}}
       </div>      
@@ -157,7 +158,25 @@
   </section>
   <section id="kontaktsec">
     <div id="kontakt" class="navpoint"></div>
-    Kontakt</section>
+    <img src="{{partial "imgUrl" (dict "img" $p.kontakt.background_picture "params" "q_100,w_800" )}}"/>
+    
+    <div class="ui container">
+      <h2>{{$p.kontakt.headline | safeHTML}}</h2>
+      <div id="plist" class="ui two column stackable grid">
+        <div class="column">
+          {{$p.kontakt.content_links | safeHTML}}
+        </div>
+        <div class="column">
+          <img src="{{partial "imgUrl" (dict "img" $p.kontakt.karte_rechts "params" "q_100,w_800" )}}"/>
+        </div>
+      
+      </div>
+
+      
+           
+    </div>
+    
+  </section>
   <div class="ui modal small" id="modal_imgg">
     <div class="content">
       <ul id="gal_imgg" class="imggalslider ">
