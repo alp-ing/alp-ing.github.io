@@ -20,7 +20,7 @@ h2 em,
 h3 em,
 h4 em {
   font-style: normal;
-  color: #009dee;
+  color: #005c84;
 }
 h1,
 h2,
@@ -33,7 +33,7 @@ h1 strong,
 h2 strong,
 h3 strong,
 h4 strong {
-  color: #009dee;
+  color: #005c84;
 }
 ul {
   padding: 0;
@@ -78,11 +78,11 @@ blockquote {
   }
 }
 a {
-  color: #009dee;
+  color: #005c84;
 }
 a:hover {
   text-decoration: underline;
-  color: #009dee;
+  color: #005c84;
 }
 .centered {
   text-align: center;
@@ -120,7 +120,7 @@ header #menu > div a {
   text-decoration: none;
 }
 header #menu > div a:hover {
-  color: #009dee;
+  color: #005c84;
   font-weight: bold;
 }
 #header.scrolled {
@@ -160,12 +160,24 @@ header #menu > div a:hover {
 }
 #home section {
   padding: 2rem 0;
-  border-bottom: 1px dashed #009dee;
+  border-bottom: 1px dashed #005c84;
   position: relative;
 }
 #home section .navpoint {
   position: absolute;
   top: -6.8rem;
+}
+#home #alpsec .imgwrapper {
+  position: relative;
+  margin-bottom: 2rem;
+}
+#home #alpsec .imgwrapper #teamnamesback {
+  position: absolute;
+  z-index: -1;
+  background: #005c84;
+  width: 100%;
+  bottom: 1rem;
+  height: 5.5rem;
 }
 #home #alpsec .centeredImgBlocks {
   display: flex;
@@ -174,20 +186,31 @@ header #menu > div a:hover {
 }
 #home #alpsec .centeredImgBlocks > div {
   text-align: center;
-  padding: 1rem;
+  padding: 1rem 1rem 2rem 1rem;
 }
 #home #alpsec .centeredImgBlocks img {
   max-width: 100%;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
 }
 #home #alpsec .centeredImgBlocks h3 {
   font-size: 1.2rem;
-  margin: 0;
+  line-height: 1.5rem;
+  margin: 2rem 0 0 0;
+  color: white;
 }
 #home #alpsec .centeredImgBlocks h3 em {
   font-size: 1rem;
+  line-height: 1.5rem;
+  color: white;
 }
 #home #alpsec .centeredImgBlocks h3 p {
   margin: 0;
+  line-height: 1.5rem;
+}
+#home #alpsec .intro {
+  padding-bottom: 3rem;
 }
 #home #projektesec h3 {
   font-weight: bold;
@@ -221,10 +244,13 @@ header #menu > div a:hover {
 }
 #home #planungsec .pg .line {
   width: 100%;
-  border-bottom: 1px dashed #009dee;
+  border-bottom: 1px dashed #005c84;
   position: absolute;
   top: 50%;
   z-index: -1;
+}
+#home #planungsec .pg .elem {
+  font-size: 0.8rem;
 }
 #home #planungsec .pg .left .line {
   left: 2rem;
@@ -234,7 +260,7 @@ header #menu > div a:hover {
   position: relative;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   text-align: right;
 }
 #home #planungsec .pg .left .elem h3 {
@@ -257,7 +283,7 @@ header #menu > div a:hover {
   position: relative;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   text-align: left;
 }
 #home #planungsec .pg .right .elem h3 {
@@ -295,13 +321,12 @@ header #menu > div a:hover {
 #home #karrieresec .column {
   text-align: center;
 }
-#home #kontaktsec h3 {
-  font-size: 1.2rem;
-  margin: 0;
+#home #kontaktsec {
+  padding: 0;
 }
-#home #kontaktsec h3 em {
-  font-size: 1rem;
+#home #kontaktsec img {
+  max-width: 100%;
 }
-#home #kontaktsec h3 p {
-  margin: 0;
+#home #kontaktsec .container {
+  padding-top: 2rem;
 }

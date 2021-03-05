@@ -1,4 +1,4 @@
-@blue:rgb(0, 157, 238);
+@blue:rgb(0, 92, 132);
 @grey:rgb(95, 97, 101);
 @content: rgb(30,30,30);
 
@@ -165,28 +165,53 @@ header{
     }
   }
   #alpsec{
+    .imgwrapper{
+      position:relative;
+      #teamnamesback{
+        position:absolute;
+        z-index:-1;
+        background:@blue;
+        width:100%;
+        bottom:1rem;
+        height:5.5rem;
+      }
+      margin-bottom:2rem;
+    }
     .centeredImgBlocks{
       display:flex;
       justify-content: center;
       align-items:center;
       >div{
         text-align:center;
-        padding:1rem;
+        padding:1rem 1rem 2rem 1rem;
       }
       img{
         max-width:100%;
+        margin:0;
+        padding:0;
+        display: inline-block;
       }
       h3{
         font-size:1.2rem;
-        margin:0;
+        line-height:1.5rem;
+        margin:2rem 0 0 0;
+        color:white;
         em{
           font-size:1.0rem;
+          line-height:1.5rem;
+          color:white;
         }
         p{
           margin:0;
+          line-height:1.5rem;
         }
       }
+      
     }
+    .intro{
+      padding-bottom:3rem;
+
+    } 
   }
   #projektesec{
     h3{
@@ -231,16 +256,22 @@ header{
         top:50%;
         z-index:-1;
       }
+      .elem{
+        font-size: 0.8rem;
+      }
       .left{
         .line{
           left:2rem;
         }
+
+
+
         .elem{
           margin:2rem 0;
           position:relative;
           display:flex;
           justify-content:space-between;
-          align-items:center;
+          align-items:flex-start;
           text-align:right;
           h3 {
             text-align:right;
@@ -265,7 +296,7 @@ header{
           position:relative;
           display:flex;
           justify-content:space-between;
-          align-items:center;
+          align-items:flex-start;
           text-align:left;
           h3 {
             text-align:left;
@@ -310,16 +341,15 @@ header{
 
   }
   #kontaktsec{
-    h3{
-      font-size:1.2rem;
-      margin:0;
-      em{
-        font-size:1.0rem;
-      }
-      p{
-        margin:0;
-      }
+    img{
+      max-width:100%;
     }
+  
+    padding:0;
+    .container{
+      padding-top:2rem;
+    }
+
     
 
   }

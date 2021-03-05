@@ -5,47 +5,31 @@
   </div>
   <section id="alpsec">
     <div id="alp" class="navpoint"></div>
-    <div class="ui container">
-      <h1>{{$p.alp.headline | safeHTML}}</h1>
-      <div class="centeredImgBlocks">
-        <div>
-          <img src="{{partial "imgUrl" (dict "img" $p.alp.teambild_links "params" "q_100,h_200" )}}"/>
-          <h3>{{$p.alp.team_name_links | safeHTML}}</h3>
-        </div>
-        <div>
-          <img src="{{partial "imgUrl" (dict "img" $p.alp.team_rechts "params" "q_100,h_200" )}}"/>
-          <h3>{{$p.alp.team_name_rechts | safeHTML}}</h3>
-        </div>
-      </div>
-      <div class="intro">
-        {{$p.alp.einleitungstext | safeHTML}}
-      </div>
-      <div class="ui grid imggal stackable">
-        <div class="eight wide column">
-          {{ range $x,$img := $p.alp.bildergalerie }} {{if eq $x 0}}
-          <div data-modal="imgg" class="gimg" data-idx="{{$x}}" style="background:url({{partial "imgUrl" (dict "img" $img "params" "c_fill,h_1200,w_1200,g_auto,f_auto" )}}) center center no-repeat;background-size:cover"></div> {{end}}{{end}}
-        </div>
-        <div class="eight wide column imggalcol">
-          <div class="ui two column stackable grid">
-          {{ range $x,$img := $p.alp.bildergalerie }} 
-            {{if gt $x 0}}
-              {{if lt $x 5}}
-                <div class="column">
-                  <div data-modal="imgg" data-idx="{{$x}}" class="gimg" style="background:url({{partial "imgUrl" (dict "img" $img "params" "c_fill,h_1200,w_1200,g_auto,f_auto" )}}) center center no-repeat;background-size:cover"></div> 
-                </div>
-              {{end}}
-            {{end}}
-          {{end}}
+    <div class="imgwrapper">
+      <div class="ui container">
+        <h1>{{$p.alp.headline | safeHTML}}</h1>
+        <div class="centeredImgBlocks">
+          <div>
+            <img src="{{partial "imgUrl" (dict "img" $p.alp.teambild_links "params" "q_100,h_200" )}}"/>
+            <h3>{{$p.alp.team_name_links | safeHTML}}</h3>
+          </div>
+          <div>
+            <img src="{{partial "imgUrl" (dict "img" $p.alp.team_rechts "params" "q_100,h_200" )}}"/>
+            <h3>{{$p.alp.team_name_rechts | safeHTML}}</h3>
           </div>
         </div>
       </div>
+      <div id="teamnamesback"></div>
+    </div>
+    <div class="ui container">
+      <div class="intro">
+        {{$p.alp.einleitungstext | safeHTML}}
+      </div>
       <div class="ui four column stackable grid imggal">
         {{ range $x,$img := $p.alp.bildergalerie }} 
-          {{if gt $x 4}}
               <div class="column">
                 <div data-modal="imgg" data-idx="{{$x}}" class="gimg" style="background:url({{partial "imgUrl" (dict "img" $img "params" "c_fill,h_1200,w_1200,g_auto,f_auto" )}}) center center no-repeat;background-size:cover"></div> 
               </div>
-          {{end}}
         {{end}}
       </div>
     </div>
@@ -80,7 +64,7 @@
           <div class="elem">
             <div class="imgcont">
               <div class="line"></div>
-              <img src="{{partial "imgUrl" (dict "img" .icon "params" "q_100,h_80" )}}"/>
+              <img src="{{partial "imgUrl" (dict "img" .icon "params" "q_100,h_70" )}}"/>
             </div>
             <div>
               <h3>{{.icon_titel | safeHTML}}</h3>
@@ -157,17 +141,16 @@
     </div>
   </section>
   <section id="kontaktsec">
-    <div id="kontakt" class="navpoint"></div>
-    <img src="{{partial "imgUrl" (dict "img" $p.kontakt.background_picture "params" "q_100,w_800" )}}"/>
-    
-    <div class="ui container">
+    <div id="kontakt" class="navpoint"></div> 
+   <div style="background:url({{partial "imgUrl" (dict "img" $p.kontakt.background_picture "params" "q_100" )}}) center center no-repeat; background-size:cover" >  
+    <div class="ui container" >
       <h2>{{$p.kontakt.headline | safeHTML}}</h2>
       <div id="plist" class="ui two column stackable grid">
         <div class="column">
           {{$p.kontakt.content_links | safeHTML}}
         </div>
         <div class="column">
-          <img src="{{partial "imgUrl" (dict "img" $p.kontakt.karte_rechts "params" "q_100,w_800" )}}"/>
+          <img src="{{partial "imgUrl" (dict "img" $p.kontakt.karte_rechts "params" "q_100,w_600" )}}"/>
         </div>
       
       </div>
@@ -175,7 +158,7 @@
       
            
     </div>
-    
+  </div> 
   </section>
   <div class="ui modal small" id="modal_imgg">
     <div class="content">
