@@ -169,6 +169,20 @@ header{
   padding:140px 0 2rem 0;
 }
 #home{
+  #videocontainer{
+    @media (max-width: 720px){
+      margin: 0 -1rem;
+    }
+    #home_player{
+      background:white;
+      max-height:70vh;
+      width:100%;
+      @media (max-width: 720px){
+        height:100vw;
+      }
+    }
+    padding:0;
+  }
   #keyv{
     height:60vh;
     display:flex;

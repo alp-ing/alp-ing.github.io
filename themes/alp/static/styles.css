@@ -172,6 +172,24 @@ header #menu > div a:hover {
 .subpage {
   padding: 140px 0 2rem 0;
 }
+#home #videocontainer {
+  padding: 0;
+}
+@media (max-width: 720px) {
+  #home #videocontainer {
+    margin: 0 -1rem;
+  }
+}
+#home #videocontainer #home_player {
+  background: white;
+  max-height: 70vh;
+  width: 100%;
+}
+@media (max-width: 720px) {
+  #home #videocontainer #home_player {
+    height: 100vw;
+  }
+}
 #home #keyv {
   height: 60vh;
   display: flex;

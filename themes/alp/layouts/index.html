@@ -1,7 +1,19 @@
 {{ define "main" }} {{$p:=.Params}}
 <div id="home">
+  <!--
   <div id="keyv" style="background:url({{partial "imgUrl" (dict "img" "/uploads/2021/02/01/alp_office2.jpg" "params" "q_100" )}}) center center no-repeat; background-size:cover">
     <img id="keyvlogo" src="{{partial "imgUrl" (dict "img" $p.keyvisual.logo_layer "params" "q_100" )}}"/>
+  </div>
+  -->
+  <div id="videocontainer" >
+    <div style="max-width: px">
+      <video
+        id="home_player"
+        data-cld-public-id="alp/ALP_Intro"
+        muted
+        class="cld-video-player cld-video-player-skin-light"
+      ></video>
+    </div>
   </div>
   <section id="alpsec">
     <div id="alp" class="navpoint"></div>
@@ -183,6 +195,19 @@
     </div>
   </div>
 </div>
+<script type="text/javascript">
+  $(function () {
+    var cld = cloudinary.Cloudinary.new({ cloud_name: 'b-coding' });
+    var demoplayer = cld.videoPlayer('home_player',{
+      loop:true,
+      autoplayMode:'on-scroll',
+      hideContextMenu:true,
+      quality: 100, 
+      videoCodec: "auto",
+      showJumpControls: false
+    });
+  });
+</script>
 {{ end }}
 
 
