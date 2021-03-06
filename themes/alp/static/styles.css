@@ -99,6 +99,12 @@ footer {
   background-size: contain;
   background-position: right 1rem center;
 }
+@media (max-width: 720px) {
+  footer {
+    background-size: auto 40%;
+    background-position: right 1rem bottom 1rem;
+  }
+}
 footer .footermenu {
   margin-top: 1rem;
 }
@@ -111,6 +117,11 @@ footer .footermenu a {
 }
 footer .footermenu a:first-child {
   border: none;
+}
+@media (max-width: 720px) {
+  footer .footermenu a {
+    border: none;
+  }
 }
 header {
   background: rgba(255, 255, 255, 0.7);
@@ -131,10 +142,10 @@ header #menu {
 header #menu > div {
   line-height: 1em;
   padding: 0 0.5rem;
-  border-left: 1px solid #5f6165;
+  border-right: 1px solid #5f6165;
   color: #5f6165;
 }
-header #menu > div:first-child {
+header #menu > div:last-child {
   border: none;
 }
 header #menu > div a {
@@ -144,6 +155,42 @@ header #menu > div a {
 header #menu > div a:hover {
   color: #005c84;
   font-weight: bold;
+}
+@media (max-width: 720px) {
+  header {
+    padding: 1rem 0;
+  }
+  header .hc {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  header .hc img {
+    height: 40px;
+    margin-bottom: 1rem;
+  }
+  header #menu {
+    display: flex;
+    justify-content: flex-end;
+  }
+  header #menu > div {
+    line-height: 1em;
+    padding: 0 0.5rem;
+    border-right: 1px solid #5f6165;
+    color: #5f6165;
+  }
+  header #menu > div.nomobile {
+    display: none;
+  }
+  header #menu > div a {
+    color: #5f6165;
+    text-decoration: none;
+  }
+  header #menu > div a:hover {
+    color: #005c84;
+    font-weight: bold;
+  }
 }
 #header.scrolled {
   transition-property: all;
@@ -159,6 +206,22 @@ header #menu > div a:hover {
   background: rgba(255, 255, 255, 0.7);
   padding: 2rem 0;
 }
+@media (max-width: 720px) {
+  #header.scrolled {
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 1rem 0;
+  }
+  #header.unscrolled {
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    background: #ffffff;
+    padding: 1rem 0;
+  }
+}
 .imggal .gimg {
   cursor: pointer;
   padding-top: 100%;
@@ -171,6 +234,11 @@ header #menu > div a:hover {
 }
 .subpage {
   padding: 140px 0 2rem 0;
+}
+@media (max-width: 720px) {
+  #home {
+    padding: 101px 0 2rem 0;
+  }
 }
 #home #videocontainer {
   padding: 0;
@@ -187,7 +255,7 @@ header #menu > div a:hover {
 }
 @media (max-width: 720px) {
   #home #videocontainer #home_player {
-    height: 100vw;
+    height: 56vw;
   }
 }
 #home #keyv {
@@ -255,6 +323,53 @@ header #menu > div a:hover {
 #home #alpsec .intro {
   padding-bottom: 3rem;
 }
+@media (max-width: 720px) {
+  #home #alpsec h1 {
+    font-size: 1.7rem;
+  }
+  #home #alpsec #teamnamesback {
+    display: none;
+  }
+  #home #alpsec .centeredImgBlocks {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  #home #alpsec .centeredImgBlocks > div {
+    text-align: center;
+    padding: 1rem 0rem 0rem 0rem;
+    flex: 1 1 100%;
+  }
+  #home #alpsec .centeredImgBlocks img {
+    max-width: 100%;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    z-index: -1;
+  }
+  #home #alpsec .centeredImgBlocks h3 {
+    font-size: 1rem;
+    line-height: 1.2rem;
+    margin: -0.4rem 0 0 0;
+    padding: 0.5rem;
+    z-index: 2;
+    color: white;
+    background: #005c84;
+  }
+  #home #alpsec .centeredImgBlocks h3 em {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: white;
+  }
+  #home #alpsec .centeredImgBlocks h3 p {
+    margin: 0;
+    line-height: 1.5rem;
+  }
+  #home #alpsec .intro {
+    padding-bottom: 2rem;
+    text-align: justify;
+  }
+}
 #home #projektesec h3 {
   font-weight: bold;
 }
@@ -269,6 +384,8 @@ header #menu > div a:hover {
 }
 #home #bimsec .container img {
   max-width: 100%;
+}
+#home #bimsec .container img:last-child {
   margin: 4rem 0;
 }
 #home #planungsec .pg {
@@ -342,6 +459,63 @@ header #menu > div a:hover {
   z-index: 2;
   margin-right: 2rem;
 }
+@media (max-width: 720px) {
+  #home #planungsec .pg {
+    display: flex;
+    flex-direction: column;
+  }
+  #home #planungsec .pg > * {
+    flex: 1 1 33%;
+  }
+  #home #planungsec .pg #centimg {
+    display: none;
+  }
+  #home #planungsec .pg .line {
+    width: 100%;
+    border-bottom: 1px dashed #005c84;
+    position: absolute;
+    top: 50%;
+    z-index: -1;
+    display: none!important;
+  }
+  #home #planungsec .pg .elem {
+    font-size: 1rem;
+  }
+  #home #planungsec .pg .left .line,
+  #home #planungsec .pg .right .line {
+    left: 2rem;
+  }
+  #home #planungsec .pg .left p,
+  #home #planungsec .pg .right p {
+    text-align: left;
+  }
+  #home #planungsec .pg .left .elem,
+  #home #planungsec .pg .right .elem {
+    margin: 2rem 0;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: right;
+  }
+  #home #planungsec .pg .left .elem h3,
+  #home #planungsec .pg .right .elem h3 {
+    text-align: left;
+    margin: 0 0 1rem 0;
+  }
+  #home #planungsec .pg .left .imgcont,
+  #home #planungsec .pg .right .imgcont {
+    position: absolute;
+    right: 0;
+    top: -1rem;
+  }
+  #home #planungsec .pg .left .imgcont img,
+  #home #planungsec .pg .right .imgcont img {
+    z-index: 2;
+    width: 3rem;
+    margin: 0;
+  }
+}
 #home #karrieresec h3 {
   font-size: 1.2rem;
   margin: 0;
@@ -364,6 +538,9 @@ header #menu > div a:hover {
 }
 #home #karrieresec .column {
   text-align: center;
+}
+#home #karrieresec ul {
+  padding-left: 1em;
 }
 #home #kontaktsec {
   padding: 0;

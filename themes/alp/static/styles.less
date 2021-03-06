@@ -90,6 +90,10 @@ footer{
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right 1rem center;
+  @media (max-width: 720px){
+    background-size: auto 40%;
+    background-position: right 1rem bottom 1rem;
+  }
   .footermenu{
     margin-top:1rem;
     a{
@@ -101,6 +105,9 @@ footer{
         border:none;
       }
       line-height:1em;
+      @media (max-width: 720px){
+        border:none;
+      }
     }
   }
 }
@@ -121,9 +128,9 @@ header{
     > div{
       line-height:1.0em;
       padding: 0 0.5rem;
-      border-left:1px solid @grey;
+      border-right:1px solid @grey;
       color:@grey;
-      &:first-child{
+      &:last-child{
         border:none;
       }
       a{
@@ -132,6 +139,40 @@ header{
         &:hover{
           color:@blue;
           font-weight:bold;
+        }
+      }
+    }
+  }
+  @media (max-width: 720px){
+    padding:1rem 0;
+    .hc{
+      display:flex;
+      flex-direction:column;
+      justify-content:flex-start;
+      align-items: flex-start;
+      img{
+        height:40px;
+        margin-bottom:1rem;
+      }
+    }
+    #menu{
+      display:flex;
+      justify-content:flex-end;
+      > div{
+        line-height:1.0em;
+        padding: 0 0.5rem;
+        border-right:1px solid @grey;
+        color:@grey;
+        &.nomobile{
+          display:none;
+        }
+        a{
+          color:@grey;
+          text-decoration:none;
+          &:hover{
+            color:@blue;
+            font-weight:bold;
+          }
         }
       }
     }
@@ -152,6 +193,22 @@ header{
     background:rgba(255,255,255,0.7);
     padding:2rem 0;
   }
+  @media (max-width: 720px){
+    &.scrolled{
+      transition-property: all;
+      transition-duration: 1s;
+      transition-timing-function: ease-in-out;
+      background:rgba(255,255,255,0.9);
+      padding:1rem 0;
+    }
+    &.unscrolled{
+      transition-property: all;
+      transition-duration: 1s;
+      transition-timing-function: ease-in-out;
+      background:rgba(255,255,255,1);
+      padding:1rem 0;
+    }
+  }
 }
 .imggal{
   .gimg{
@@ -169,6 +226,9 @@ header{
   padding:140px 0 2rem 0;
 }
 #home{
+  @media (max-width: 720px){
+    padding:101px 0 2rem 0;
+  }
   #videocontainer{
     @media (max-width: 720px){
       margin: 0 -1rem;
@@ -178,7 +238,7 @@ header{
       max-height:70vh;
       width:100%;
       @media (max-width: 720px){
-        height:100vw;
+        height:56vw;
       }
     }
     padding:0;
@@ -251,6 +311,53 @@ header{
       padding-bottom:3rem;
 
     } 
+    @media (max-width: 720px){
+      h1{
+        font-size:1.7rem;
+      }
+      #teamnamesback{
+        display:none;
+      }
+      .centeredImgBlocks{
+        display:flex;
+        justify-content: center;
+        align-items:flex-start;
+        >div{
+          text-align:center;
+          padding:1rem 0rem 0rem 0rem;
+          flex:1 1 100%;
+        }
+        img{
+          max-width:100%;
+          height:200px;
+          margin:0;
+          padding:0;
+          z-index:-1;
+        }
+        h3{
+          font-size:1rem;
+          line-height:1.2rem;
+          margin: -0.4rem 0 0 0;
+          padding:0.5rem;
+          z-index:2;
+          color:white;
+          background: @blue;
+          em{
+            font-size:1.0rem;
+            line-height:1.5rem;
+            color:white;
+          }
+          p{
+            margin:0;
+            line-height:1.5rem;
+          }
+        }
+      }
+      .intro{
+        padding-bottom:2rem;
+        text-align:justify;
+      } 
+    }
   }
   #projektesec{
     h3{
@@ -270,7 +377,9 @@ header{
       align-items:center;
       img{
         max-width:100%;
-        margin:4rem 0;
+        &:last-child{
+          margin:4rem 0;
+        }
       }
     }
   }
@@ -303,9 +412,6 @@ header{
         .line{
           left:2rem;
         }
-
-
-
         .elem{
           margin:2rem 0;
           position:relative;
@@ -353,6 +459,60 @@ header{
         }
       }
     }
+    @media (max-width: 720px){
+      .pg{
+        display:flex;
+        flex-direction:column;
+        >*{
+          flex: 1 1 33%;
+        }
+        #centimg{
+         display:none
+        }
+        .line{
+          width:100%;
+          border-bottom:1px dashed @blue;
+          position:absolute;
+          top:50%;
+          z-index:-1;
+          display:none!important;
+        }
+        .elem{
+          font-size: 1rem;
+        }
+        .left, .right{
+          .line{
+            left:2rem;
+          }
+          p{
+            text-align:left;
+          }
+          
+          .elem{
+            margin:2rem 0;
+            position:relative;
+            display:flex;
+            justify-content:space-between;
+            align-items:flex-start;
+            text-align:right;
+            h3 {
+              text-align:left;
+              margin:0 0 1rem 0;
+            }
+          }
+          .imgcont{
+            position:absolute;
+            right:0;
+            top:-1rem;
+            img{
+              z-index:2;
+              width:3rem;
+              margin:0;
+            }
+          }
+        }
+      }
+    }
   }
   #karrieresec{
     h3{
@@ -378,7 +538,12 @@ header{
     .column{
       text-align:center;
     }
+    ul{
+      padding-left:1em;
+      li{
 
+      }
+    }
   }
   #kontaktsec{
     img{
@@ -389,8 +554,5 @@ header{
     .container{
       padding-top:2rem;
     }
-
-    
-
   }
 }

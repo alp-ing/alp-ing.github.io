@@ -15,6 +15,7 @@
       ></video>
     </div>
   </div>
+  
   <section id="alpsec">
     <div id="alp" class="navpoint"></div>
     <div class="imgwrapper">
@@ -46,7 +47,8 @@
       </div>
     </div>
   </section>
-  <section id="planungsec">
+  
+<section id="planungsec">
     <div id="planung" class="navpoint"></div>
     <div class="ui container">
       <h2>{{$p.planung.headline | safeHTML}}</h2>
@@ -89,6 +91,7 @@
       </div>
     </div>
   </section>
+  
   <section id="bimsec" >
     <div id="bim" class="navpoint"></div>
     <div class="ui container">
@@ -97,6 +100,7 @@
       <img src="{{partial "imgUrl" (dict "img" $p.bim.bild "params" "q_100,w_800" )}}"/>
     </div>
   </section>
+  
   <section id="projektesec" >
     <div id="projekte" class="navpoint"></div>
     <div class="ui container">
@@ -143,6 +147,7 @@
       </div>
     </div>
   </section>
+  
   <section id="karrieresec">
     <div id="karriere" class="navpoint"></div>
     <div class="ui container">
@@ -152,6 +157,7 @@
       </div>      
     </div>
   </section>
+  
   <section id="kontaktsec">
     <div id="kontakt" class="navpoint"></div> 
    <div style="background:url({{partial "imgUrl" (dict "img" $p.kontakt.background_picture "params" "q_100" )}}) center center no-repeat; background-size:cover" >  
@@ -164,11 +170,7 @@
         <div class="column">
           <img src="{{partial "imgUrl" (dict "img" $p.kontakt.karte_rechts "params" "q_100,w_600" )}}"/>
         </div>
-      
       </div>
-
-      
-           
     </div>
   </div> 
   </section>
