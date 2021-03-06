@@ -8,7 +8,7 @@ einleitungstext = "<p>Ob Sanitärinstallationen, Heizsysteme, Gebäudeklimatisie
 headline = "<p><strong>ALP</strong> Ingenieur GmbH &amp; Co. KG</p>"
 team_name_links = "<p>ACHIM LAUERER</p><p>Geschäftsführender Gesellschafter</p>"
 team_name_rechts = "<p>PIERRE LIMPERT</p><p >Geschäftsführender Gesellschafter</p>"
-team_rechts = "/uploads/2021/02/01/alp_pierre_limpert.png"
+team_rechts = "/uploads/2021/03/06/1_alp_pierre_limpert.png"
 teambild_links = "/uploads/2021/02/01/alp-achim-lauerer.png"
 [bim]
 bild = "/uploads/2021/02/02/bim_visualisierung_sw.png"
