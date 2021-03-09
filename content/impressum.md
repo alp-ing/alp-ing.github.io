@@ -23,3 +23,6 @@ Achim Lauerer, Pierre Limpert
 
 Design & Konzept:  
 [elvira.beck|design](http://elvirabeck-design.de/)
+
+Fotografie:  
+[Melanie Feldmeier]( www.melanie-feldmeier.de)
