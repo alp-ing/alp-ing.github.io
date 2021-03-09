@@ -22,7 +22,7 @@ film = ""
 logo_layer = "/uploads/2021/02/01/alp_logo_layer_transparent.png"
 [kontakt]
 background_picture = "/uploads/2021/02/01/kontakt_background_pic.jpg"
-content_links = "<p>Achim Lauerer &amp; Pierre Limpert</p><p class=\"p1\"><a href=\"mailto:info@alp-ing.de\" title=\"\">info@alp-ing.de</a></p><p class=\"p1\">Tel. +49 (0) 94 52 / 854 98 - 00</p>"
+content_links = "<p>Achim Lauerer &amp; Pierre Limpert</p><p class=\"p1\"><a href=\"mailto:info@alp-ing.de\" title=\"\">info@alp-ing.de</a></p><p class=\"p1\"><a href=\"tel:004994528549800\">+49 (0) 94 52 / 854 98 - 00</a></p>"
 headline = "<p>ALP INGENIEUR <strong>KONTAKT</strong></p>"
 karte_rechts = "/uploads/2021/02/05/alp_kontakt_karte.jpg"
 [planung]

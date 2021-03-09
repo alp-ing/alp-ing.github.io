@@ -105,6 +105,9 @@ footer {
     background-position: right 1rem bottom 1rem;
   }
 }
+footer a {
+  color: white!important;
+}
 footer .footermenu {
   margin-top: 1rem;
 }
