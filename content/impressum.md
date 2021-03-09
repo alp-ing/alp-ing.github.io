@@ -25,4 +25,4 @@ Design & Konzept:
 [elvira.beck|design](http://elvirabeck-design.de/)
 
 Fotografie:  
-[Melanie Feldmeier]( www.melanie-feldmeier.de)
+[Melanie Feldmeier](https://melanie-feldmeier.de/)
