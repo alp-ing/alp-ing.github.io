@@ -71,9 +71,9 @@ beschreibung = "OPS| BIM Ready | BIM-Methodik | Grundlagen - Pierre Limpert"
 bild = "/uploads/2022/01/21/zertfikat-mum-ops_bim_ready_bim-methodik_grundlagen-pierre-limpert.jpg"
 headline = "Zertifikat Mensch und Maschine "
 [[zertifikate.zertifikate]]
-beschreibung = ""
-bild = ""
-headline = ""
+beschreibung = "Sachkundebescheinigung nach ChemKlimatschutzV - Pierre Limpert"
+bild = "/uploads/2022/01/21/zertifikat-biv-sachkundebescheinigung_nach_chemklimatschutzv-pierre-limpert.jpg"
+headline = "Zertifikat BIV"
 [[zertifikate.zertifikate]]
 beschreibung = ""
 bild = ""
