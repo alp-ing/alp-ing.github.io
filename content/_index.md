@@ -111,8 +111,8 @@ beschreibung = ""
 bild = ""
 headline = "Zertifikate Mensch und Maschine"
 [[zertifikate.zertifikate]]
-beschreibung = ""
-bild = ""
+beschreibung = "Revit Master | Gebäudetechnik"
+bild = "/uploads/2022/01/21/zertifikat-mum-revit-master-mk.jpg"
 headline = "Zertifikate Mensch und Maschine"
 
 +++
