@@ -6,8 +6,8 @@ type = "page"
 bildergalerie = ["/uploads/2021/02/01/alp_office.jpg", "/uploads/2021/02/01/alp_office11.jpg", "/uploads/2021/02/01/alp_office8.jpg", "/uploads/2021/02/01/alp_office4.jpg", "/uploads/2021/02/01/alp_office7.jpg", "/uploads/2021/02/01/alp_office5.jpg", "/uploads/2021/02/01/alp_office2.jpg", "/uploads/2021/02/01/alp_office3.jpg", "/uploads/2021/02/01/alp_office6.jpg", "/uploads/2021/02/01/alp_office1.jpg", "/uploads/2021/02/01/alp_office10.jpg", "/uploads/2021/02/01/alp_office9.jpg"]
 einleitungstext = "<p>Ob Sanitärinstallationen, Heizsysteme, Gebäudeklimatisierung, Brandschutz oder Gebäudeleittechnik: Die technische Gebäudeausstattung eines modernen Gebäudes ist höchst komplex und wird zunehmend digitaler. Eine durchdachte Haustechnik fordert von einem Planungsteam aus Ingenieuren, Meistern, Technikern und technischen Systemplanern höchste Sensibilität für die Umsetzung der auf das jeweilige Projekt zugeschnittenen Anforderungen. Basis hierfür ist die grundlegende Erfordernis einer detaillierten Erfassung sämtlicher Aufgabenstellungen und deren akribische Abarbeitung, bis hin zur Umsetzung des Endproduktes.</p><p>____</p><p>Wir vom Ingenieurbüro ALP haben uns zur Aufgabe gemacht, all dies im Sinne des Auftraggebers und nach dessen Wünschen, unter Zuhilfenahme modernster Planungstools, zu leisten. Zudem sind wir für unsere Bauherrn stets der verlässliche Partner und Berater - insbesondere auch mit kritischem Blick auf die sich ständig verändernden Entwicklungen innerhalb der Haustechnik.</p><p></p>"
 headline = "<p><strong>ALP</strong> Ingenieur GmbH &amp; Co. KG</p>"
-team_name_links = "<p>ACHIM LAUERER</p><p>Geschäftsführender Gesellschafter</p>"
-team_name_rechts = "<p>PIERRE LIMPERT</p><p >Geschäftsführender Gesellschafter</p>"
+team_name_links = "<p>ACHIM LAUERER</p><p>Geschäftsführender Gesellschafter</p>"
+team_name_rechts = "<p>PIERRE LIMPERT</p><p >Geschäftsführender Gesellschafter</p>"
 team_rechts = "/uploads/2021/03/06/1_alp_pierre_limpert.png"
 teambild_links = "/uploads/2021/02/01/alp-achim-lauerer.png"
 [bim]
@@ -55,9 +55,9 @@ icon = "/uploads/2021/02/01/icon_msr.png"
 icon_titel = "MSR"
 [projekte]
 bildergalerie = ["/uploads/2021/02/05/2.jpg", "/uploads/2021/02/05/9.jpg", "/uploads/2021/02/05/8.jpg", "/uploads/2021/02/05/7.jpg", "/uploads/2021/02/05/6.jpg", "/uploads/2021/02/05/5.jpg", "/uploads/2021/02/05/4.jpg", "/uploads/2021/02/05/3.jpg", "/uploads/2021/02/05/1.jpg"]
-content_links = "<p>Hotel Stachus München</p><p class=\"p1\">_</p><p class=\"p1\">Gewerbeobjekt Riesstraße</p><p class=\"p1\">_</p><p class=\"p1\">Hochhaus Balanstraße</p><p class=\"p1\">_</p><p class=\"p1\">Forum Memmingen</p>"
-content_mitte = "<p>Gewerbekomplex Sankt Martin Straße</p><p class=\"p1\">_</p><p class=\"p1\">Gewerbeobjekt Berg am Laim</p><p class=\"p1\">_</p><p class=\"p1\">Neubau Lebensmittelmarkt</p><p class=\"p1\">_</p><p class=\"p1\">Gebäudeerweiterung Parteizentrale</p>"
-content_rechts = "<p>Mehrfamilienhaus Ursulastraße</p><p class=\"p1\">_</p><p class=\"p1\">Palais am Lehnbachplatz</p><p class=\"p1\">_</p><p class=\"p1\">Mehrfamilienwohnhaus Welfenstraße</p><p class=\"p1\">_</p><p class=\"p1\">EFH Rheinlandstraße</p>"
+content_links = "<p>Neubau Wohnhaus Gröbenzell</p><p>_</p><p>Neubau Logistikzentrum Straubing</p><p>_</p><p class=\"p1\">Neubau Bürogebäude mit Kantine und Tiefgarage Landshut</p><p>_</p><p class=\"p1\">Hotel Goethestraße München</p><p>_</p><p>Hotel Stachus München</p>"
+content_mitte = "<p class=\"p1\">Gewerbeobjekt Riesstraße</p><p class=\"p1\">_</p><p class=\"p1\">Gewerbekomplex Sankt Martin Straße</p><p class=\"p1\">_</p><p class=\"p1\">Gewerbeobjekt Berg am Laim</p><p class=\"p1\">_</p><p class=\"p1\">Neubau Lebensmittelmarkt</p><p class=\"p1\">_</p><p class=\"p1\">Gebäudeerweiterung Parteizentrale</p><p>_</p><p>Hochhaus Balanstraße</p>"
+content_rechts = "<p class=\"p1\">Forum Memmingen</p><p>_</p><p>Mehrfamilienhaus Ursulastraße</p><p class=\"p1\">_</p><p class=\"p1\">Palais am Lehnbachplatz</p><p class=\"p1\">_</p><p class=\"p1\">Mehrfamilienwohnhaus Welfenstraße</p><p class=\"p1\">_</p><p class=\"p1\">EFH Rheinlandstraße</p>"
 headline = "<p>AKTUELLE <strong>PROJEKTE</strong></p>"
 subheadline_projekte = "PROJEKTLISTE"
 
