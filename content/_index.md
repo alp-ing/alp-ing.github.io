@@ -79,13 +79,13 @@ beschreibung = "Energieberater - Achim Lauerer"
 bild = "/uploads/2022/01/21/zertifikat-shk-handwerk-energieberater-achim-lauerer.jpg"
 headline = "Zertifikat SHK Handwerk "
 [[zertifikate.zertifikate]]
-beschreibung = "OPS| BIM Ready | BIM-Methodik | Grundlagen - Pierre Limpert"
-bild = "/uploads/2022/01/21/zertfikat-mum-ops_bim_ready_bim-methodik_grundlagen-pierre-limpert.jpg"
-headline = "Zertifikat Mensch und Maschine "
-[[zertifikate.zertifikate]]
 beschreibung = "Pierre Limpert."
 bild = "/uploads/2022/01/21/zertifikat-smart-building-pierre-limpert.jpg"
 headline = "Zertifikat Smart Building"
+[[zertifikate.zertifikate]]
+beschreibung = "OPS| BIM Ready | BIM-Methodik | Grundlagen - Pierre Limpert"
+bild = "/uploads/2022/01/21/zertfikat-mum-ops_bim_ready_bim-methodik_grundlagen-pierre-limpert.jpg"
+headline = "Zertifikat Mensch und Maschine "
 [[zertifikate.zertifikate]]
 beschreibung = "BIM Konstrukteur Gebäudetechnik -  Pierre Limpert"
 bild = "/uploads/2022/01/21/zertifikat-mum-bim-konstrukteur_gebaudetechnik-pierre-limpert.jpg"
@@ -94,5 +94,25 @@ headline = "Zertifikat Mensch und Maschine"
 beschreibung = "OPS | BIM Ready | Autodesk Revit Architecture | Grundlagen"
 bild = "/uploads/2022/01/21/zertifikat-mum-bim-ready_autodesk_revit_architecture_grundlagen_vs.jpg"
 headline = "Zertifikat Mensch und Maschine"
+[[zertifikate.zertifikate]]
+beschreibung = "OPS | MuM BIM Booster | Planung - Gebäudetechnik"
+bild = "/uploads/2022/01/21/zertifikat-mum-bim-booster-mk.jpg"
+headline = "Zertifikat Mensch und Maschine"
+[[zertifikate.zertifikate]]
+beschreibung = ""
+bild = ""
+headline = ""
+[[zertifikate.zertifikate]]
+beschreibung = ""
+bild = ""
+headline = ""
+[[zertifikate.zertifikate]]
+beschreibung = ""
+bild = ""
+headline = ""
+[[zertifikate.zertifikate]]
+beschreibung = ""
+bild = ""
+headline = ""
 
 +++
