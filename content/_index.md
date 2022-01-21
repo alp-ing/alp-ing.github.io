@@ -15,7 +15,7 @@ bild = "/uploads/2021/02/02/bim_visualisierung_sw.png"
 headline = "<p>BUILDING <strong>INFORMATION MODELLING</strong></p>"
 logo_bim = "/uploads/2021/02/04/bim_ready_logo.png"
 [karriere]
-content_text = "<p>im Moment sind leider keine Stellen vakant.</p>"
+content_text = "<p>Im Moment sind leider keine Stellen vakant.</p>"
 headline = "<p>DEINE <strong>KARRIERE</strong></p>"
 [keyvisual]
 film = ""
