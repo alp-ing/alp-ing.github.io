@@ -91,8 +91,8 @@ beschreibung = "BIM Konstrukteur Gebäudetechnik -  Pierre Limpert"
 bild = "/uploads/2022/01/21/zertifikat-mum-bim-konstrukteur_gebaudetechnik-pierre-limpert.jpg"
 headline = "Zertifikat Mensch und Maschine"
 [[zertifikate.zertifikate]]
-beschreibung = ""
-bild = ""
-headline = ""
+beschreibung = "OPS | BIM Ready | Autodesk Revit Architecture | Grundlagen"
+bild = "/uploads/2022/01/21/zertifikat-mum-bim-ready_autodesk_revit_architecture_grundlagen_vs.jpg"
+headline = "Zertifikat Mensch und Maschine"
 
 +++
