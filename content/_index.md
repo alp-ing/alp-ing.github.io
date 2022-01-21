@@ -79,9 +79,9 @@ beschreibung = "Energieberater - Pierre Limpert"
 bild = "/uploads/2022/01/21/zertifikat-handwerkskammer-fur-mittelfranken-energieberater-pierre-limpert.jpg"
 headline = "Zertifikat Handwerkskammer für Mittelfranken"
 [[zertifikate.zertifikate]]
-beschreibung = ""
-bild = ""
-headline = ""
+beschreibung = "Energieberater - Achim Lauerer"
+bild = "/uploads/2022/01/21/zertifikat-shk-handwerk-energieberater-achim-lauerer.jpg"
+headline = "Zertifikat SHK Handwerk"
 [[zertifikate.zertifikate]]
 beschreibung = ""
 bild = ""
