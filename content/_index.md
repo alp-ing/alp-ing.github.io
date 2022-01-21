@@ -69,7 +69,7 @@ headline = "Zertfikat Deutsche Normen Akademie"
 [[zertifikate.zertifikate]]
 beschreibung = "OPS| BIM Ready | BIM-Methodik | Grundlagen - Pierre Limpert"
 bild = "/uploads/2022/01/21/zertfikat-mum-ops_bim_ready_bim-methodik_grundlagen-pierre-limpert.jpg"
-headline = "Zertifikat Mensch und Maschine"
+headline = "Zertifikat Mensch und Maschine "
 [[zertifikate.zertifikate]]
 beschreibung = ""
 bild = ""
