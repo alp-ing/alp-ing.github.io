@@ -75,9 +75,9 @@ beschreibung = "OPS| BIM Ready | BIM-Methodik | Grundlagen - Pierre Limpert"
 bild = "/uploads/2022/01/21/zertfikat-mum-ops_bim_ready_bim-methodik_grundlagen-pierre-limpert.jpg"
 headline = "Zertifikat Mensch und Maschine "
 [[zertifikate.zertifikate]]
-beschreibung = ""
-bild = ""
-headline = ""
+beschreibung = "Energieberater - Pierre Limpert"
+bild = "/uploads/2022/01/21/zertifikat-handwerkskammer-fur-mittelfranken-energieberater-pierre-limpert.jpg"
+headline = "Zertifikat Handwerkskammer für Mittelfranken"
 [[zertifikate.zertifikate]]
 beschreibung = ""
 bild = ""
