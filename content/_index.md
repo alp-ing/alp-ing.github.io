@@ -62,7 +62,21 @@ content_mitte = "<p class=\"p1\">Gewerbeobjekt Riesstraße</p><p class=\"p1\">_<
 content_rechts = "<p class=\"p1\">Forum Memmingen</p><p>_</p><p>Mehrfamilienhaus Ursulastraße</p><p class=\"p1\">_</p><p class=\"p1\">Palais am Lehnbachplatz</p><p class=\"p1\">_</p><p class=\"p1\">Mehrfamilienwohnhaus Welfenstraße</p><p class=\"p1\">_</p><p class=\"p1\">EFH Rheinlandstraße</p>"
 headline = "<p>AKTUELLE <strong>PROJEKTE</strong></p>"
 subheadline_projekte = "PROJEKTLISTE"
-[zertifikate]
-zertifikate = []
+[[zertifikate.zertifikate]]
+beschreibung = "VDI 6022 - Achim Lauerer"
+bild = ""
+headline = "Zertfikat Deutsche Normen Akademie"
+[[zertifikate.zertifikate]]
+beschreibung = ""
+bild = ""
+headline = ""
+[[zertifikate.zertifikate]]
+beschreibung = ""
+bild = ""
+headline = ""
+[[zertifikate.zertifikate]]
+beschreibung = ""
+bild = ""
+headline = ""
 
 +++
