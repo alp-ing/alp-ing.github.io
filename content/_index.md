@@ -62,5 +62,7 @@ content_mitte = "<p class=\"p1\">Gewerbeobjekt Riesstraße</p><p class=\"p1\">_<
 content_rechts = "<p class=\"p1\">Forum Memmingen</p><p>_</p><p>Mehrfamilienhaus Ursulastraße</p><p class=\"p1\">_</p><p class=\"p1\">Palais am Lehnbachplatz</p><p class=\"p1\">_</p><p class=\"p1\">Mehrfamilienwohnhaus Welfenstraße</p><p class=\"p1\">_</p><p class=\"p1\">EFH Rheinlandstraße</p>"
 headline = "<p>AKTUELLE <strong>PROJEKTE</strong></p>"
 subheadline_projekte = "PROJEKTLISTE"
+[zertifikate]
+zertifikate = []
 
 +++
