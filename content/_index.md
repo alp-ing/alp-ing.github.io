@@ -63,10 +63,6 @@ content_rechts = "<p class=\"p1\">Forum Memmingen</p><p>_</p><p>Mehrfamilienhaus
 headline = "<p>AKTUELLE <strong>PROJEKTE</strong></p>"
 subheadline_projekte = "PROJEKTLISTE"
 [[zertifikate.zertifikate]]
-beschreibung = "Revit Master | Gebäudetechnik"
-bild = "/uploads/2022/01/21/zertifikat-mum-revit-master-mm.jpg"
-headline = "Zertifikat Mensch und Maschine"
-[[zertifikate.zertifikate]]
 beschreibung = "VDI 6022 - Achim Lauerer"
 bild = "/uploads/2022/01/21/zertfikat-deutsche-normen-akademie-vdi-6022-achim-lauerer.jpg"
 headline = "Zertfikat Deutsche Normen Akademie"
@@ -86,6 +82,10 @@ headline = "Zertifikat SHK Handwerk "
 beschreibung = "Pierre Limpert."
 bild = "/uploads/2022/01/21/zertifikat-smart-building-pierre-limpert.jpg"
 headline = "Zertifikat Smart Building"
+[[zertifikate.zertifikate]]
+beschreibung = "Revit Master | Gebäudetechnik"
+bild = "/uploads/2022/01/21/zertifikat-mum-revit-master-mm.jpg"
+headline = "Zertifikat Mensch und Maschine"
 [[zertifikate.zertifikate]]
 beschreibung = "OPS| BIM Ready | BIM-Methodik | Grundlagen - Pierre Limpert"
 bild = "/uploads/2022/01/21/zertfikat-mum-ops_bim_ready_bim-methodik_grundlagen-pierre-limpert.jpg"
