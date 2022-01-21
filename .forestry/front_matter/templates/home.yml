@@ -312,5 +312,37 @@ fields:
       maxSize: 64
     label: background_picture
   label: Kontakt
+- name: zertifikate
+  type: field_group
+  config: {}
+  fields:
+  - name: zertifikate
+    type: field_group_list
+    fields:
+    - name: headline
+      type: text
+      config:
+        required: false
+      label: headline
+    - name: bild
+      type: file
+      config:
+        maxSize: 64
+      label: bild
+    - name: beschreibung
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: true
+        schema:
+          format: markdown
+      label: Beschreibung
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: zertifikate
+  label: Zertifikate
 pages:
 - content/_index.md
