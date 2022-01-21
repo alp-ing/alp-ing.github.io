@@ -71,10 +71,6 @@ beschreibung = "Sachkundebescheinigung nach ChemKlimatschutzV - Pierre Limpert"
 bild = "/uploads/2022/01/21/zertifikat-biv-sachkundebescheinigung_nach_chemklimatschutzv-pierre-limpert.jpg"
 headline = "Zertifikat BIV"
 [[zertifikate.zertifikate]]
-beschreibung = "OPS| BIM Ready | BIM-Methodik | Grundlagen - Pierre Limpert"
-bild = "/uploads/2022/01/21/zertfikat-mum-ops_bim_ready_bim-methodik_grundlagen-pierre-limpert.jpg"
-headline = "Zertifikat Mensch und Maschine "
-[[zertifikate.zertifikate]]
 beschreibung = "Energieberater - Pierre Limpert"
 bild = "/uploads/2022/01/21/zertifikat-handwerkskammer-fur-mittelfranken-energieberater-pierre-limpert.jpg"
 headline = "Zertifikat Handwerkskammer für Mittelfranken "
@@ -83,9 +79,13 @@ beschreibung = "Energieberater - Achim Lauerer"
 bild = "/uploads/2022/01/21/zertifikat-shk-handwerk-energieberater-achim-lauerer.jpg"
 headline = "Zertifikat SHK Handwerk "
 [[zertifikate.zertifikate]]
-beschreibung = ""
-bild = ""
-headline = ""
+beschreibung = "OPS| BIM Ready | BIM-Methodik | Grundlagen - Pierre Limpert"
+bild = "/uploads/2022/01/21/zertfikat-mum-ops_bim_ready_bim-methodik_grundlagen-pierre-limpert.jpg"
+headline = "Zertifikat Mensch und Maschine "
+[[zertifikate.zertifikate]]
+beschreibung = "Pierre Limpert."
+bild = "/uploads/2022/01/21/zertifikat-smart-building-pierre-limpert.jpg"
+headline = "Zertifikat Smart Building"
 [[zertifikate.zertifikate]]
 beschreibung = ""
 bild = ""
