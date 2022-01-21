@@ -87,9 +87,9 @@ beschreibung = "Pierre Limpert."
 bild = "/uploads/2022/01/21/zertifikat-smart-building-pierre-limpert.jpg"
 headline = "Zertifikat Smart Building"
 [[zertifikate.zertifikate]]
-beschreibung = ""
-bild = ""
-headline = ""
+beschreibung = "BIM Konstrukteur Gebäudetechnik -  Pierre Limpert"
+bild = "/uploads/2022/01/21/zertifikat-mum-bim-konstrukteur_gebaudetechnik-pierre-limpert.jpg"
+headline = "Zertifikat Mensch und Maschine"
 [[zertifikate.zertifikate]]
 beschreibung = ""
 bild = ""
