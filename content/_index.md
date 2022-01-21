@@ -64,7 +64,7 @@ headline = "<p>AKTUELLE <strong>PROJEKTE</strong></p>"
 subheadline_projekte = "PROJEKTLISTE"
 [[zertifikate.zertifikate]]
 beschreibung = "VDI 6022 - Achim Lauerer"
-bild = ""
+bild = "/uploads/2022/01/21/zertfikat-deutsche-normen-akademie-vdi-6022-achim-lauerer.jpg"
 headline = "Zertfikat Deutsche Normen Akademie"
 [[zertifikate.zertifikate]]
 beschreibung = ""
