@@ -67,13 +67,29 @@ beschreibung = "VDI 6022 - Achim Lauerer"
 bild = "/uploads/2022/01/21/zertfikat-deutsche-normen-akademie-vdi-6022-achim-lauerer.jpg"
 headline = "Zertfikat Deutsche Normen Akademie"
 [[zertifikate.zertifikate]]
+beschreibung = "Sachkundebescheinigung nach ChemKlimatschutzV - Pierre Limpert"
+bild = "/uploads/2022/01/21/zertifikat-biv-sachkundebescheinigung_nach_chemklimatschutzv-pierre-limpert.jpg"
+headline = "Zertifikat BIV"
+[[zertifikate.zertifikate]]
 beschreibung = "OPS| BIM Ready | BIM-Methodik | Grundlagen - Pierre Limpert"
 bild = "/uploads/2022/01/21/zertfikat-mum-ops_bim_ready_bim-methodik_grundlagen-pierre-limpert.jpg"
 headline = "Zertifikat Mensch und Maschine "
 [[zertifikate.zertifikate]]
-beschreibung = "Sachkundebescheinigung nach ChemKlimatschutzV - Pierre Limpert"
-bild = "/uploads/2022/01/21/zertifikat-biv-sachkundebescheinigung_nach_chemklimatschutzv-pierre-limpert.jpg"
-headline = "Zertifikat BIV"
+beschreibung = ""
+bild = ""
+headline = ""
+[[zertifikate.zertifikate]]
+beschreibung = ""
+bild = ""
+headline = ""
+[[zertifikate.zertifikate]]
+beschreibung = ""
+bild = ""
+headline = ""
+[[zertifikate.zertifikate]]
+beschreibung = ""
+bild = ""
+headline = ""
 [[zertifikate.zertifikate]]
 beschreibung = ""
 bild = ""
