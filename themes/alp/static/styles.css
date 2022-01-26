@@ -379,6 +379,12 @@ header #menu > div a:hover {
 #home #projektesec #plist .column {
   text-align: center;
 }
+#home #zertifikatesec h4 {
+  font-weight: bold;
+}
+#home #zertifikatesec .desc {
+  text-align: center;
+}
 #home #bimsec .container {
   display: flex;
   flex-direction: column;
@@ -390,6 +396,9 @@ header #menu > div a:hover {
 }
 #home #bimsec .container img:last-child {
   margin: 4rem 0;
+}
+#home #bimsec h2 {
+  text-align: left;
 }
 #home #planungsec .pg {
   display: flex;
