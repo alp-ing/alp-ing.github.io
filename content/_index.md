@@ -69,7 +69,7 @@ headline = "Deutsche Normen Akademie"
 [[zertifikate.zertifikate]]
 beschreibung = "Sachkundebescheinigung nach ChemKlimatschutzV - Pierre Limpert"
 bild = "/uploads/2022/01/21/zertifikat-biv-sachkundebescheinigung_nach_chemklimatschutzv-pierre-limpert.jpg"
-headline = "Zertifikat BIV"
+headline = "BIV"
 [[zertifikate.zertifikate]]
 beschreibung = "Energieberater - Pierre Limpert"
 bild = "/uploads/2022/01/21/zertifikat-handwerkskammer-fur-mittelfranken-energieberater-pierre-limpert.jpg"
