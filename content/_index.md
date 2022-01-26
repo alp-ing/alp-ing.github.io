@@ -103,9 +103,9 @@ beschreibung = "OPS | MuM BIM Booster | Planung - Gebäudetechnik"
 bild = "/uploads/2022/01/21/zertifikat-mum-bim-booster-mk.jpg"
 headline = "Mensch und Maschine"
 [[zertifikate.zertifikate]]
-beschreibung = "OPS | MuM BIM Booster | Modellprüfung | Grundlagen"
+beschreibung = "2x OPS | MuM BIM Booster | Modellprüfung | Grundlagen"
 bild = "/uploads/2022/01/21/zertifikat-mum-bim-booster-mm.jpg"
-headline = "Zertifikate Mensch und Maschine"
+headline = "Mensch und Maschine"
 [[zertifikate.zertifikate]]
 beschreibung = "OPS | MuM BIM Booster | Modellprüfung | Grundlagen"
 bild = "/uploads/2022/01/21/zertifikat-mum-modellprufung-mk.jpg"
