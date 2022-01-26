@@ -79,9 +79,9 @@ beschreibung = "Energieberater - Achim Lauerer"
 bild = "/uploads/2022/01/21/zertifikat-shk-handwerk-energieberater-achim-lauerer.jpg"
 headline = "SHK Handwerk "
 [[zertifikate.zertifikate]]
-beschreibung = "Pierre Limpert."
+beschreibung = "Pierre Limpert"
 bild = "/uploads/2022/01/21/zertifikat-smart-building-pierre-limpert.jpg"
-headline = "Zertifikat Smart Building"
+headline = "Smart Building"
 [[zertifikate.zertifikate]]
 beschreibung = "Revit Master | Gebäudetechnik"
 bild = "/uploads/2022/01/21/zertifikat-mum-revit-master-mm.jpg"
