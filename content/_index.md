@@ -97,7 +97,7 @@ headline = "Mensch und Maschine"
 [[zertifikate.zertifikate]]
 beschreibung = "OPS | BIM Ready | Autodesk Revit Architecture | Grundlagen"
 bild = "/uploads/2022/01/21/zertifikat-mum-bim-ready_autodesk_revit_architecture_grundlagen_vs.jpg"
-headline = "Zertifikat Mensch und Maschine"
+headline = "Mensch und Maschine"
 [[zertifikate.zertifikate]]
 beschreibung = "OPS | MuM BIM Booster | Planung - Gebäudetechnik"
 bild = "/uploads/2022/01/21/zertifikat-mum-bim-booster-mk.jpg"
