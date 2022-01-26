@@ -85,7 +85,7 @@ headline = "Smart Building"
 [[zertifikate.zertifikate]]
 beschreibung = "Revit Master | Gebäudetechnik"
 bild = "/uploads/2022/01/21/zertifikat-mum-revit-master-mm.jpg"
-headline = "Zertifikat Mensch und Maschine"
+headline = "Mensch und Maschine"
 [[zertifikate.zertifikate]]
 beschreibung = "OPS| BIM Ready | BIM-Methodik | Grundlagen - Pierre Limpert"
 bild = "/uploads/2022/01/21/zertfikat-mum-ops_bim_ready_bim-methodik_grundlagen-pierre-limpert.jpg"
