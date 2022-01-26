@@ -107,12 +107,8 @@ beschreibung = "OPS | MuM BIM Booster | Modellprüfung | Grundlagen"
 bild = "/uploads/2022/01/21/zertifikat-mum-bim-booster-mm.jpg"
 headline = "Mensch und Maschine"
 [[zertifikate.zertifikate]]
-beschreibung = "OPS | MuM BIM Booster | Modellprüfung | Grundlagen"
-bild = "/uploads/2022/01/21/zertifikat-mum-modellprufung-mk.jpg"
-headline = "Zertifikate Mensch und Maschine"
-[[zertifikate.zertifikate]]
 beschreibung = "Revit Master | Gebäudetechnik"
 bild = "/uploads/2022/01/21/zertifikat-mum-revit-master-mk.jpg"
-headline = "Zertifikate Mensch und Maschine"
+headline = "Mensch und Maschine"
 
 +++
