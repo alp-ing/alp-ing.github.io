@@ -77,7 +77,7 @@ headline = "Handwerkskammer Mittelfranken "
 [[zertifikate.zertifikate]]
 beschreibung = "Energieberater - Achim Lauerer"
 bild = "/uploads/2022/01/21/zertifikat-shk-handwerk-energieberater-achim-lauerer.jpg"
-headline = "Zertifikat SHK Handwerk "
+headline = "SHK Handwerk "
 [[zertifikate.zertifikate]]
 beschreibung = "Pierre Limpert."
 bild = "/uploads/2022/01/21/zertifikat-smart-building-pierre-limpert.jpg"
