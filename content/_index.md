@@ -3,7 +3,7 @@ seo_description = "ALP"
 title = "ALP home"
 type = "page"
 [alp]
-bildergalerie = ["/uploads/2022/01/21/r6_m6109.jpeg", "/uploads/2022/01/21/r6_m5499.jpeg", "/uploads/2022/01/21/r6_m5549.jpeg", "/uploads/2022/01/21/r6_m6021.jpeg", "/uploads/2022/01/21/r6_m5637.jpeg", "/uploads/2022/01/21/r6_m6013.jpeg", "/uploads/2022/01/21/r6_m5937_pp.jpeg", "/uploads/2021/02/01/alp_office.jpg", "/uploads/2021/02/01/alp_office11.jpg", "/uploads/2021/02/01/alp_office8.jpg", "/uploads/2021/02/01/alp_office4.jpg", "/uploads/2021/02/01/alp_office7.jpg", "/uploads/2021/02/01/alp_office5.jpg", "/uploads/2021/02/01/alp_office2.jpg", "/uploads/2021/02/01/alp_office3.jpg", "/uploads/2021/02/01/alp_office6.jpg", "/uploads/2021/02/01/alp_office1.jpg", "/uploads/2021/02/01/alp_office10.jpg", "/uploads/2021/02/01/alp_office9.jpg"]
+bildergalerie = ["/uploads/2022/01/21/r6_m6109.jpeg", "/uploads/2022/01/21/r6_m5499.jpeg", "/uploads/2022/01/21/r6_m5549.jpeg", "/uploads/2022/01/21/r6_m6021.jpeg", "/uploads/2022/01/21/r6_m5637.jpeg", "/uploads/2022/01/21/r6_m6013.jpeg", "/uploads/2022/02/10/r6_m5773.jpeg", "/uploads/2022/01/21/r6_m5937_pp.jpeg", "/uploads/2021/02/01/alp_office.jpg", "/uploads/2021/02/01/alp_office11.jpg", "/uploads/2021/02/01/alp_office8.jpg", "/uploads/2021/02/01/alp_office4.jpg", "/uploads/2021/02/01/alp_office7.jpg", "/uploads/2021/02/01/alp_office5.jpg", "/uploads/2021/02/01/alp_office2.jpg", "/uploads/2021/02/01/alp_office3.jpg", "/uploads/2021/02/01/alp_office6.jpg", "/uploads/2021/02/01/alp_office1.jpg", "/uploads/2021/02/01/alp_office10.jpg", "/uploads/2021/02/01/alp_office9.jpg"]
 einleitungstext = "<p>Ob Sanitärinstallationen, Heizsysteme, Gebäudeklimatisierung, Brandschutz oder Gebäudeleittechnik: Die technische Gebäudeausstattung eines modernen Gebäudes ist höchst komplex und wird zunehmend digitaler. Eine durchdachte Haustechnik fordert von einem Planungsteam aus Ingenieuren, Meistern, Technikern und technischen Systemplanern höchste Sensibilität für die Umsetzung der auf das jeweilige Projekt zugeschnittenen Anforderungen. Basis hierfür ist die grundlegende Erfordernis einer detaillierten Erfassung sämtlicher Aufgabenstellungen und deren akribische Abarbeitung, bis hin zur Umsetzung des Endproduktes.</p><p>____</p><p>Wir vom Ingenieurbüro ALP haben uns zur Aufgabe gemacht, all dies im Sinne des Auftraggebers und nach dessen Wünschen, unter Zuhilfenahme modernster Planungstools, zu leisten. Zudem sind wir für unsere Bauherrn stets der verlässliche Partner und Berater - insbesondere auch mit kritischem Blick auf die sich ständig verändernden Entwicklungen innerhalb der Haustechnik.</p><p></p>"
 headline = "<p><strong>ALP</strong> Ingenieur GmbH &amp; Co. KG</p>"
 team_name_links = "<p>ACHIM LAUERER</p><p>Geschäftsführender Gesellschafter</p>"
@@ -65,54 +65,50 @@ subheadline_projekte = "PROJEKTLISTE"
 [[zertifikate.zertifikate]]
 beschreibung = "VDI 6022 - Achim Lauerer"
 bild = "/uploads/2022/01/21/zertfikat-deutsche-normen-akademie-vdi-6022-achim-lauerer.jpg"
-headline = "Zertfikat Deutsche Normen Akademie"
+headline = "Deutsche Normen Akademie"
 [[zertifikate.zertifikate]]
 beschreibung = "Sachkundebescheinigung nach ChemKlimatschutzV - Pierre Limpert"
 bild = "/uploads/2022/01/21/zertifikat-biv-sachkundebescheinigung_nach_chemklimatschutzv-pierre-limpert.jpg"
-headline = "Zertifikat BIV"
+headline = "BIV"
 [[zertifikate.zertifikate]]
 beschreibung = "Energieberater - Pierre Limpert"
 bild = "/uploads/2022/01/21/zertifikat-handwerkskammer-fur-mittelfranken-energieberater-pierre-limpert.jpg"
-headline = "Zertifikat Handwerkskammer für Mittelfranken "
+headline = "Handwerkskammer Mittelfranken "
 [[zertifikate.zertifikate]]
 beschreibung = "Energieberater - Achim Lauerer"
 bild = "/uploads/2022/01/21/zertifikat-shk-handwerk-energieberater-achim-lauerer.jpg"
-headline = "Zertifikat SHK Handwerk "
+headline = "SHK Handwerk "
 [[zertifikate.zertifikate]]
-beschreibung = "Pierre Limpert."
+beschreibung = "Pierre Limpert"
 bild = "/uploads/2022/01/21/zertifikat-smart-building-pierre-limpert.jpg"
-headline = "Zertifikat Smart Building"
+headline = "Smart Building"
 [[zertifikate.zertifikate]]
 beschreibung = "Revit Master | Gebäudetechnik"
 bild = "/uploads/2022/01/21/zertifikat-mum-revit-master-mm.jpg"
-headline = "Zertifikat Mensch und Maschine"
-[[zertifikate.zertifikate]]
-beschreibung = "OPS| BIM Ready | BIM-Methodik | Grundlagen - Pierre Limpert"
-bild = "/uploads/2022/01/21/zertfikat-mum-ops_bim_ready_bim-methodik_grundlagen-pierre-limpert.jpg"
-headline = "Zertifikat Mensch und Maschine "
+headline = "Mensch und Maschine"
 [[zertifikate.zertifikate]]
 beschreibung = "BIM Konstrukteur Gebäudetechnik -  Pierre Limpert"
 bild = "/uploads/2022/01/21/zertifikat-mum-bim-konstrukteur_gebaudetechnik-pierre-limpert.jpg"
-headline = "Zertifikat Mensch und Maschine"
+headline = "Mensch und Maschine"
+[[zertifikate.zertifikate]]
+beschreibung = "OPS | BIM Ready | BIM-Methodik | Grundlagen - Pierre Limpert"
+bild = "/uploads/2022/01/26/neuzertfikat-mum-ops_bim_ready_bim-methodik_grundlagen-pierre-limpert.jpg"
+headline = "Mensch und Maschine "
 [[zertifikate.zertifikate]]
 beschreibung = "OPS | BIM Ready | Autodesk Revit Architecture | Grundlagen"
 bild = "/uploads/2022/01/21/zertifikat-mum-bim-ready_autodesk_revit_architecture_grundlagen_vs.jpg"
-headline = "Zertifikat Mensch und Maschine"
+headline = "Mensch und Maschine"
 [[zertifikate.zertifikate]]
 beschreibung = "OPS | MuM BIM Booster | Planung - Gebäudetechnik"
 bild = "/uploads/2022/01/21/zertifikat-mum-bim-booster-mk.jpg"
-headline = "Zertifikat Mensch und Maschine"
+headline = "Mensch und Maschine"
 [[zertifikate.zertifikate]]
 beschreibung = "OPS | MuM BIM Booster | Modellprüfung | Grundlagen"
 bild = "/uploads/2022/01/21/zertifikat-mum-bim-booster-mm.jpg"
-headline = "Zertifikate Mensch und Maschine"
-[[zertifikate.zertifikate]]
-beschreibung = "OPS | MuM BIM Booster | Modellprüfung | Grundlagen"
-bild = "/uploads/2022/01/21/zertifikat-mum-modellprufung-mk.jpg"
-headline = "Zertifikate Mensch und Maschine"
+headline = "Mensch und Maschine"
 [[zertifikate.zertifikate]]
 beschreibung = "Revit Master | Gebäudetechnik"
 bild = "/uploads/2022/01/21/zertifikat-mum-revit-master-mk.jpg"
-headline = "Zertifikate Mensch und Maschine"
+headline = "Mensch und Maschine"
 
 +++
