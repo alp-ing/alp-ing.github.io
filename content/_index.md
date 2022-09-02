@@ -63,13 +63,13 @@ content_rechts = "<p class=\"p1\">Forum Memmingen</p><p>_</p><p>Mehrfamilienhaus
 headline = "<p>AKTUELLE <strong>PROJEKTE</strong></p>"
 subheadline_projekte = "PROJEKTLISTE"
 [[zertifikate.zertifikate]]
-beschreibung = ""
-bild = ""
-headline = ""
+beschreibung = "Nachhaltig handeln und Digitalisierung nutzen - Strategien für den Ausbildungsalltag im Wandel entwickeln"
+bild = "/uploads/2022/09/02/teilnahmebescheinigung_nachhaltig-handeln_digitalisierung-nutzen_ihkk-passau.jpg"
+headline = "IHK Bayern"
 [[zertifikate.zertifikate]]
-beschreibung = ""
-bild = ""
-headline = ""
+beschreibung = "Revit Master Gebäudetechnik"
+bild = "/uploads/2022/09/02/revit-master-gebaudetechnik.jpg"
+headline = "bim ready"
 [[zertifikate.zertifikate]]
 beschreibung = "OPS | BIM Ready | Autodesk Revit MEP | Grundlagen"
 bild = "/uploads/2022/09/02/ops_mum_bim-ready_autodesk-revit-mep_grundlagen.jpg"
