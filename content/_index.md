@@ -79,9 +79,9 @@ beschreibung = ""
 bild = ""
 headline = ""
 [[zertifikate.zertifikate]]
-beschreibung = ""
-bild = ""
-headline = ""
+beschreibung = "OPS | BIM Ready | Autodesk Revit MEP"
+bild = "/uploads/2022/09/02/ops_mum_bim-ready_autodesk-revit-mep_aufbau.jpg"
+headline = "Mensch und Maschine"
 [[zertifikate.zertifikate]]
 beschreibung = "Solar Computer Academy"
 bild = "/uploads/2022/09/02/20220120_teilnehmerbescheinigung_solar_computer_geg2020_din-v-18599_achim_lauerer.jpg"
