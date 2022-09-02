@@ -17,7 +17,7 @@ headline = "<p>BUILDING <strong>INFORMATION MODELLING</strong></p>"
 logo_bim = "/uploads/2021/02/04/bim_ready_logo.png"
 referenztext = "_Artikel Mensch und Maschine_\n\n## Klein, Fein, BIM\n\n**_Die ALP Ingenieur GmbH & Co. KG macht aus Architekturplänen 3D-Modelle und vermeidet mit der Modellprüfung des BIM Booster Fehler_**\n\nIn Deutschland sind die Gebäudetechniker den Architekten in Sachen BIM (Building Information Modeling) ein Stück voraus. Auch kleine Büros wie die ALP Ingenieur GmbH & Co. KG in Landshut nutzen die Methode für energieeffiziente TGA-Lösungen. Die Ausbildung BIM Ready, die Modellprüfung mit dem MuM BIM Booster und der kompetente Support durch MuM garantieren Effizienz und Qualität.\n\n[Artikel lesen](https://www.mum.de/-/media/mum/downloads/referenzen/mum-kundenreferenz-alp-ingenieur-gmbh-co-kg.pdf)"
 [karriere]
-content_text = "<p>Im Moment sind keine Stellen vakant! Wir freuen uns jederzeit über Ihre Initiativbewerbung.</p>"
+content_text = "<p>Im Moment sind keine Stellen vakant! Wir freuen uns jederzeit über Deine Initiativbewerbung.</p>"
 headline = "<p>DEINE <strong>KARRIERE</strong></p>"
 [keyvisual]
 film = ""
