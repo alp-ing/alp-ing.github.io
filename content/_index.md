@@ -75,9 +75,9 @@ beschreibung = ""
 bild = ""
 headline = ""
 [[zertifikate.zertifikate]]
-beschreibung = ""
-bild = ""
-headline = ""
+beschreibung = "OPS | BIM Ready | Autodesk Revit MEP | Familien"
+bild = "/uploads/2022/09/02/ops_mum_bim-ready_autodesk-revit-mep_familien.jpg"
+headline = "Mensch und Maschine"
 [[zertifikate.zertifikate]]
 beschreibung = "OPS | BIM Ready | Autodesk Revit MEP"
 bild = "/uploads/2022/09/02/ops_mum_bim-ready_autodesk-revit-mep_aufbau.jpg"
