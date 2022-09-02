@@ -63,6 +63,30 @@ content_rechts = "<p class=\"p1\">Forum Memmingen</p><p>_</p><p>Mehrfamilienhaus
 headline = "<p>AKTUELLE <strong>PROJEKTE</strong></p>"
 subheadline_projekte = "PROJEKTLISTE"
 [[zertifikate.zertifikate]]
+beschreibung = ""
+bild = ""
+headline = ""
+[[zertifikate.zertifikate]]
+beschreibung = ""
+bild = ""
+headline = ""
+[[zertifikate.zertifikate]]
+beschreibung = ""
+bild = ""
+headline = ""
+[[zertifikate.zertifikate]]
+beschreibung = ""
+bild = ""
+headline = ""
+[[zertifikate.zertifikate]]
+beschreibung = ""
+bild = ""
+headline = ""
+[[zertifikate.zertifikate]]
+beschreibung = "Solar Computer Academy"
+bild = "/uploads/2022/09/02/20220120_teilnehmerbescheinigung_solar_computer_geg2020_din-v-18599_achim_lauerer.jpg"
+headline = "Online-Seminar"
+[[zertifikate.zertifikate]]
 beschreibung = "VDI 6022 - Achim Lauerer"
 bild = "/uploads/2022/01/21/zertfikat-deutsche-normen-akademie-vdi-6022-achim-lauerer.jpg"
 headline = "Deutsche Normen Akademie"
