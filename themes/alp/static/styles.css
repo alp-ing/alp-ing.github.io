@@ -548,6 +548,10 @@ header #menu > div a:hover {
 #home #karrieresec content_text p {
   margin: 0;
 }
+#home #karrieresec content_text h4 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
 #home #karrieresec .column {
   text-align: center;
 }
