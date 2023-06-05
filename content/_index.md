@@ -3,7 +3,7 @@ seo_description = "ALP"
 title = "ALP home"
 type = "page"
 [alp]
-bildergalerie = ["/uploads/2022/01/21/r6_m6109.jpeg", "/uploads/2022/01/21/r6_m5499.jpeg", "/uploads/2022/01/21/r6_m5549.jpeg", "/uploads/2022/01/21/r6_m6021.jpeg", "/uploads/2022/01/21/r6_m5637.jpeg", "/uploads/2022/01/21/r6_m6013.jpeg", "/uploads/2022/02/10/r6_m5773.jpeg", "/uploads/2022/01/21/r6_m5937_pp.jpeg", "/uploads/2021/02/01/alp_office.jpg", "/uploads/2021/02/01/alp_office11.jpg", "/uploads/2021/02/01/alp_office8.jpg", "/uploads/2021/02/01/alp_office4.jpg", "/uploads/2021/02/01/alp_office7.jpg", "/uploads/2021/02/01/alp_office5.jpg", "/uploads/2021/02/01/alp_office2.jpg", "/uploads/2021/02/01/alp_office3.jpg", "/uploads/2021/02/01/alp_office6.jpg", "/uploads/2021/02/01/alp_office1.jpg", "/uploads/2021/02/01/alp_office10.jpg", "/uploads/2021/02/01/alp_office9.jpg"]
+bildergalerie = ["/uploads/2022/09/02/r6_m6216.jpg", "/uploads/2022/09/02/r6_m5829.jpg", "/uploads/2022/09/02/r6_m5873.jpg", "/uploads/2022/09/02/r6_m5709.jpg", "/uploads/2022/01/21/r6_m6109.jpeg", "/uploads/2022/01/21/r6_m5499.jpeg", "/uploads/2022/01/21/r6_m5549.jpeg", "/uploads/2022/01/21/r6_m6021.jpeg", "/uploads/2022/01/21/r6_m5637.jpeg", "/uploads/2022/01/21/r6_m6013.jpeg", "/uploads/2022/02/10/r6_m5773.jpeg", "/uploads/2022/01/21/r6_m5937_pp.jpeg", "/uploads/2021/02/01/alp_office.jpg", "/uploads/2021/02/01/alp_office11.jpg", "/uploads/2021/02/01/alp_office8.jpg", "/uploads/2021/02/01/alp_office4.jpg", "/uploads/2021/02/01/alp_office7.jpg", "/uploads/2021/02/01/alp_office5.jpg", "/uploads/2021/02/01/alp_office2.jpg", "/uploads/2021/02/01/alp_office3.jpg", "/uploads/2021/02/01/alp_office6.jpg", "/uploads/2021/02/01/alp_office1.jpg", "/uploads/2021/02/01/alp_office10.jpg", "/uploads/2021/02/01/alp_office9.jpg"]
 einleitungstext = "<p>Ob Sanitärinstallationen, Heizsysteme, Gebäudeklimatisierung, Brandschutz oder Gebäudeleittechnik: Die technische Gebäudeausstattung eines modernen Gebäudes ist höchst komplex und wird zunehmend digitaler. Eine durchdachte Haustechnik fordert von einem Planungsteam aus Ingenieuren, Meistern, Technikern und technischen Systemplanern höchste Sensibilität für die Umsetzung der auf das jeweilige Projekt zugeschnittenen Anforderungen. Basis hierfür ist die grundlegende Erfordernis einer detaillierten Erfassung sämtlicher Aufgabenstellungen und deren akribische Abarbeitung, bis hin zur Umsetzung des Endproduktes.</p><p>____</p><p>Wir vom Ingenieurbüro ALP haben uns zur Aufgabe gemacht, all dies im Sinne des Auftraggebers und nach dessen Wünschen, unter Zuhilfenahme modernster Planungstools, zu leisten. Zudem sind wir für unsere Bauherrn stets der verlässliche Partner und Berater - insbesondere auch mit kritischem Blick auf die sich ständig verändernden Entwicklungen innerhalb der Haustechnik.</p><p></p>"
 headline = "<p><strong>ALP</strong> Ingenieur GmbH &amp; Co. KG</p>"
 team_name_links = "<p>ACHIM LAUERER</p><p>Geschäftsführender Gesellschafter</p>"
@@ -62,6 +62,30 @@ content_mitte = "<p class=\"p1\">Gewerbeobjekt Riesstraße</p><p class=\"p1\">_<
 content_rechts = "<p class=\"p1\">Forum Memmingen</p><p>_</p><p>Mehrfamilienhaus Ursulastraße</p><p class=\"p1\">_</p><p class=\"p1\">Palais am Lehnbachplatz</p><p class=\"p1\">_</p><p class=\"p1\">Mehrfamilienwohnhaus Welfenstraße</p><p class=\"p1\">_</p><p class=\"p1\">EFH Rheinlandstraße</p>"
 headline = "<p>AKTUELLE <strong>PROJEKTE</strong></p>"
 subheadline_projekte = "PROJEKTLISTE"
+[[zertifikate.zertifikate]]
+beschreibung = "Nachhaltig handeln und Digitalisierung nutzen - Strategien für den Ausbildungsalltag im Wandel entwickeln"
+bild = "/uploads/2022/09/02/teilnahmebescheinigung_nachhaltig-handeln_digitalisierung-nutzen_ihkk-passau.jpg"
+headline = "IHK Bayern"
+[[zertifikate.zertifikate]]
+beschreibung = "Revit Master Gebäudetechnik"
+bild = "/uploads/2022/09/02/revit-master-gebaudetechnik.jpg"
+headline = "bim ready"
+[[zertifikate.zertifikate]]
+beschreibung = "OPS | BIM Ready | Autodesk Revit MEP | Grundlagen"
+bild = "/uploads/2022/09/02/ops_mum_bim-ready_autodesk-revit-mep_grundlagen.jpg"
+headline = "Mensch und Maschine"
+[[zertifikate.zertifikate]]
+beschreibung = "OPS | BIM Ready | Autodesk Revit MEP | Familien"
+bild = "/uploads/2022/09/02/ops_mum_bim-ready_autodesk-revit-mep_familien.jpg"
+headline = "Mensch und Maschine"
+[[zertifikate.zertifikate]]
+beschreibung = "OPS | BIM Ready | Autodesk Revit MEP | Aufbau"
+bild = "/uploads/2022/09/02/ops_mum_bim-ready_autodesk-revit-mep_aufbau.jpg"
+headline = "Mensch und Maschine"
+[[zertifikate.zertifikate]]
+beschreibung = "Solar Computer Academy"
+bild = "/uploads/2022/09/02/1_20220120_teilnehmerbescheinigung_solar_computer_geg2020_din-v-18599_achim_lauerer.png"
+headline = "Online-Seminar"
 [[zertifikate.zertifikate]]
 beschreibung = "VDI 6022 - Achim Lauerer"
 bild = "/uploads/2022/01/21/zertfikat-deutsche-normen-akademie-vdi-6022-achim-lauerer.jpg"
