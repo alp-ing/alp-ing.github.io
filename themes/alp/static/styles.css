@@ -244,11 +244,24 @@ header #menu > div a:hover {
   }
 }
 #home #videocontainer {
+  --letterbox-color: white!important;
+  position: relative;
+  background: white;
+  height: 70vh;
+  width: 100%;
   padding: 0;
 }
 @media (max-width: 720px) {
   #home #videocontainer {
     margin: 0 -1rem;
+  }
+}
+#home #videocontainer > * {
+  background: white;
+}
+@media (max-width: 720px) {
+  #home #videocontainer {
+    height: 56vw;
   }
 }
 #home #videocontainer #home_player {

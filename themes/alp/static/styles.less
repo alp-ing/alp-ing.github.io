@@ -233,9 +233,20 @@ header{
     padding:101px 0 2rem 0;
   }
   #videocontainer{
+    --letterbox-color:white!important;
     @media (max-width: 720px){
       margin: 0 -1rem;
     }
+    position:relative;
+    background:white;
+    > *{
+      background:white;
+    }
+      height:70vh;
+      width:100%;
+      @media (max-width: 720px){
+        height:56vw;
+      }
     #home_player{
       background:white;
       max-height:70vh;

@@ -6,6 +6,14 @@
   </div>
   -->
   <div id="videocontainer" >
+    <iframe
+    src="https://customer-n2yle1sa4qkhphyy.cloudflarestream.com/82c3252171f9494a758acf4ca795a5e6/iframe?muted=true&loop=true&autoplay=true&poster=https%3A%2F%2Fcustomer-n2yle1sa4qkhphyy.cloudflarestream.com%2F82c3252171f9494a758acf4ca795a5e6%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600&controls=false&letterboxColor=%23ffffff&primaryColor=%23ffffff"
+    loading="lazy"
+    style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"
+    allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;"
+    allowfullscreen="true"
+  ></iframe>
+    <!--
     <div style="max-width: px">
       <video
         id="home_player"
@@ -14,6 +22,7 @@
         class="cld-video-player cld-video-player-skin-light"
       ></video>
     </div>
+  -->
   </div>
   
   <section id="alpsec">
@@ -23,11 +32,11 @@
         <h1>{{$p.alp.headline | safeHTML}}</h1>
         <div class="centeredImgBlocks">
           <div>
-            <img src="{{partial "imgUrl" (dict "img" $p.alp.teambild_links "params" "q_100,h_280" )}}"/>
+            <img src="{{partial "imgUrl" (dict "img" $p.alp.teambild_links "params" "q_100,height=280" )}}"/>
             <h3>{{$p.alp.team_name_links | safeHTML}}</h3>
           </div>
           <div>
-            <img src="{{partial "imgUrl" (dict "img" $p.alp.team_rechts "params" "q_100,h_280" )}}"/>
+            <img src="{{partial "imgUrl" (dict "img" $p.alp.team_rechts "params" "q_100,height=280" )}}"/>
             <h3>{{$p.alp.team_name_rechts | safeHTML}}</h3>
           </div>
         </div>
@@ -41,7 +50,7 @@
       <div class="ui four column stackable grid imggal">
         {{ range $x,$img := $p.alp.bildergalerie }} 
               <div class="column">
-                <div data-modal="imgg" data-idx="{{$x}}" class="gimg" style="background:url({{partial "imgUrl" (dict "img" $img "params" "c_fill,h_1200,w_1200,g_auto,f_auto" )}}) center center no-repeat;background-size:cover"></div> 
+                <div data-modal="imgg" data-idx="{{$x}}" class="gimg" style="background:url({{partial "imgUrl" (dict "img" $img "params" "fit=cover,gravity=auto,height=1200,width=1200c_fill" )}}) center center no-repeat;background-size:cover"></div> 
               </div>
         {{end}}
       </div>
@@ -65,20 +74,20 @@
               </div>
               <div class="imgcont">
                 <div class="line"></div>
-                <img src="{{partial "imgUrl" (dict "img" .icon "params" "q_100,h_70" )}}"/>
+                <img src="{{partial "imgUrl" (dict "img" .icon "params" "quality=100,height=70" )}}"/>
               </div>
             </div>
           {{end}}
         </div>
         <div id="centimg">
-          <img src="{{partial "imgUrl" (dict "img" $p.planung.bild_mitte "params" "q_100,w_400" )}}"/>
+          <img src="{{partial "imgUrl" (dict "img" $p.planung.bild_mitte "params" "quality=100,width=400" )}}"/>
         </div>
         <div class="right">
           {{ range $p.planung.content_rechts }} 
           <div class="elem">
             <div class="imgcont">
               <div class="line"></div>
-              <img src="{{partial "imgUrl" (dict "img" .icon "params" "q_100,h_70" )}}"/>
+              <img src="{{partial "imgUrl" (dict "img" .icon "params" "quality=100,height=70" )}}"/>
             </div>
             <div>
               <h3>{{.icon_titel | safeHTML}}</h3>
@@ -96,14 +105,14 @@
     <div id="bim" class="navpoint"></div>
     <div class="ui container">
       <h2>{{$p.bim.headline | safeHTML}}</h2>
-      <img src="{{partial "imgUrl" (dict "img" "/uploads/2021/02/04/bim_ready_logo.png" "params" "q_80,w_300" )}}"/>
-      <img src="{{partial "imgUrl" (dict "img" $p.bim.bild "params" "q_100,w_800" )}}"/>
+      <img src="{{partial "imgUrl" (dict "img" "/uploads/2021/02/04/bim_ready_logo.png" "params" "quality=80,width=300" )}}"/>
+      <img src="{{partial "imgUrl" (dict "img" $p.bim.bild "params" "quality=100,width=800" )}}"/>
     </div>
     <div style="margin-top:7rem"/>
     <div class="ui container">
       <div class="ui grid stackable">
         <div class="eight wide column">
-          <div data-modal="imgp" data-idx="1" style="height:100%;min-height:500px; background:url({{partial "imgUrl" (dict "img" $p.bim.bildlinks "params" "c_fill,h_891,w_555,g_auto,f_auto" )}}) right top no-repeat;background-size:contain"></div>
+          <div data-modal="imgp" data-idx="1" style="height:100%;min-height:500px; background:url({{partial "imgUrl" (dict "img" $p.bim.bildlinks "params" "fit=cover,quality=80,width=555,height=891,gravity=auto" )}}) right top no-repeat;background-size:contain"></div>
         </div>
         <div class="eight wide column" style="min-height:500px;">
           {{$p.bim.referenztext | markdownify}}
@@ -119,7 +128,7 @@
       <div class="ui grid imggal stackable">
         <div class="eight wide column">
           {{ range $x,$img := $p.projekte.bildergalerie }} {{if eq $x 0}}
-          <div data-modal="imgp" class="gimg" data-idx="{{$x}}" style="background:url({{partial "imgUrl" (dict "img" $img "params" "c_fill,h_1200,w_1200,g_auto,f_auto" )}}) center center no-repeat;background-size:cover"></div> {{end}}{{end}}
+          <div data-modal="imgp" class="gimg" data-idx="{{$x}}" style="background:url({{partial "imgUrl" (dict "img" $img "params" "fit=cover,width=1200,height=1200,gravity=auto" )}}) center center no-repeat;background-size:cover"></div> {{end}}{{end}}
         </div>
         <div class="eight wide column imggalcol">
           <div class="ui two column stackable grid">
@@ -127,7 +136,7 @@
             {{if gt $x 0}}
               {{if lt $x 5}}
                 <div class="column">
-                  <div data-modal="imgp" data-idx="{{$x}}" class="gimg" style="background:url({{partial "imgUrl" (dict "img" $img "params" "c_fill,h_1200,w_1200,g_auto,f_auto" )}}) center center no-repeat;background-size:cover"></div> 
+                  <div data-modal="imgp" data-idx="{{$x}}" class="gimg" style="background:url({{partial "imgUrl" (dict "img" $img "params" "fit=cover,width=1200,height=1200,gravity=auto" )}}) center center no-repeat;background-size:cover"></div> 
                 </div>
               {{end}}
             {{end}}
@@ -139,7 +148,7 @@
         {{ range $x,$img := $p.projekte.bildergalerie }} 
           {{if gt $x 4}}
               <div class="column">
-                <div data-modal="imgp" data-idx="{{$x}}" class="gimg" style="background:url({{partial "imgUrl" (dict "img" $img "params" "c_fill,h_1200,w_1200,g_auto,f_auto" )}}) center center no-repeat;background-size:cover"></div> 
+                <div data-modal="imgp" data-idx="{{$x}}" class="gimg" style="background:url({{partial "imgUrl" (dict "img" $img "params" "fit=cover,width=1200,height=1200,gravity=auto" )}}) center center no-repeat;background-size:cover"></div> 
               </div>
           {{end}}
         {{end}}
@@ -176,7 +185,7 @@
       <div class="ui six column doubling stackable grid imggal gimg">
         {{ range $x,$z := $p.zertifikate.zertifikate }} 
         <div class="column">
-          <div data-modal="imgz" data-idx="{{$x}}" class="gimg" style="min-height:300px; background:url({{partial "imgUrl" (dict "img" $z.bild "params" "c_fill,h_594,w_370,g_auto,f_auto" )}}) center bottom no-repeat;background-size:contain"></div> 
+          <div data-modal="imgz" data-idx="{{$x}}" class="gimg" style="min-height:300px; background:url({{partial "imgUrl" (dict "img" $z.bild "params" "fit=cover,width=370,height=594,gravity=auto" )}}) center bottom no-repeat;background-size:contain"></div> 
           <h4>{{$z.headline | safeHTML}}</h4>
           <div class="desc">
           {{$z.beschreibung | safeHTML}}
@@ -189,7 +198,7 @@
   
   <section id="kontaktsec">
     <div id="kontakt" class="navpoint"></div> 
-   <div style="background:url({{partial "imgUrl" (dict "img" $p.kontakt.background_picture "params" "q_100" )}}) center center no-repeat; background-size:cover" >  
+   <div style="background:url({{partial "imgUrl" (dict "img" $p.kontakt.background_picture "params" "quality=100" )}}) center center no-repeat; background-size:cover" >  
     <div class="ui container" >
       <h2>{{$p.kontakt.headline | safeHTML}}</h2>
       <div id="plist" class="ui two column stackable grid">
@@ -197,7 +206,7 @@
           {{$p.kontakt.content_links | safeHTML}}
         </div>
         <div class="column">
-          <img src="{{partial "imgUrl" (dict "img" $p.kontakt.karte_rechts "params" "q_100,w_600" )}}"/>
+          <img src="{{partial "imgUrl" (dict "img" $p.kontakt.karte_rechts "params" "quality=100,width=1200" )}}"/>
         </div>
       </div>
     </div>
@@ -208,7 +217,7 @@
       <ul id="gal_imgg" class="imggalslider ">
         {{ range $x,$img := $p.alp.bildergalerie }}
         <li>
-          <img style="z-index:2;" src="{{partial "imgUrl" (dict "img" $img "params" "c_scale,h_1000,f_auto" )}} " />
+          <img style="z-index:2;" src="{{partial "imgUrl" (dict "img" $img "params" "height=1000" )}} " />
         </li>
         {{end}}
       </ul>
@@ -219,7 +228,7 @@
       <ul id="gal_imgp" class="imggalslider ">
         {{ range $x,$img := $p.projekte.bildergalerie }}
         <li>
-          <img style="z-index:2;" src="{{partial "imgUrl" (dict "img" $img "params" "c_scale,h_1000,f_auto" )}} " />
+          <img style="z-index:2;" src="{{partial "imgUrl" (dict "img" $img "params" "height=1000" )}} " />
         </li>
         {{end}}
       </ul>
@@ -230,7 +239,7 @@
       <ul id="gal_imgz" class="imggalslider ">
         {{ range $x,$img := $p.zertifikate.zertifikate }}
         <li>
-          <img style="z-index:2;" src="{{partial "imgUrl" (dict "img" $img.bild "params" "c_scale,h_1000,f_auto" )}} " />
+          <img style="z-index:2;" src="{{partial "imgUrl" (dict "img" $img.bild "params" "height=1000" )}} " />
         </li>
         {{end}}
       </ul>
